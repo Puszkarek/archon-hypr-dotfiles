@@ -23,7 +23,7 @@ set --erase _asdf_shims
 set -x COWPATH $HOME/.config/cows $COWPATH
 
 fastfetch
-fortune | cowsay | awk -v width=(tput cols) '{
+fortune | cowsay -f r2d2-c3po | awk -v width=(tput cols) '{
     lines[NR] = $0
     if (length($0) > max) max = length($0)
 }
