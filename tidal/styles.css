@@ -3,10 +3,10 @@
   font-family: 'Orbitron';
   box-sizing: border-box !important;
   border-radius: 0 !important;
-  color: #ff3845 !important;
-  border-color: #ff3845 !important;
-  outline-color: #ff3845 !important;
-  background-color: #0e0e17 !important;
+  color: #33ff00 !important;
+  border-color: #33ff00 !important;
+  outline-color: #33ff00 !important;
+  background-color: #0a0e0a !important;
   box-shadow: none !important;
   box-shadow: none !important;
   background-image: none !important;
@@ -18,20 +18,20 @@ button {
 }
 
 i {
-  --wave-color-solid-contrast-fill: #ff3845 !important;
+  --wave-color-solid-contrast-fill: #33ff00 !important;
 }
 
 *:hover {
   box-shadow: none !important;
-  color: #fb932e !important;
-  border-color: #fb932e !important;
-  outline-color: #fb932e !important;
+  color: #ffb000 !important;
+  border-color: #ffb000 !important;
+  outline-color: #ffb000 !important;
   background-image: inherit !important;
-  background-color: #0e0e17 !important;
+  background-color: #0a0e0a !important;
 }
 
 [data-test='sidebar'] {
-  border-right: 1px solid #ff3845;
+  border-right: 1px solid #33ff00;
 }
 
 [data-test='explicit-badge'] {
@@ -56,9 +56,9 @@ i {
   width: 16px;
   height: 16px;
 
-  background: #0e0e17;
-  outline: 1px solid #ff3845;
-  color: #ff3845;
+  background: #0a0e0a;
+  outline: 1px solid #33ff00;
+  color: #33ff00;
   border-radius: 0;
   font-size: 10px;
   font-weight: 600;
@@ -71,7 +71,7 @@ i {
 ::-ms-input-placeholder,
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #ffacac;
+  color: #bbffac;
   opacity: 1;
 }
 
@@ -81,25 +81,25 @@ i {
 }
 
 ._progressBarWrapper_f1fad6d {
-  color: #ff3845 !important;
-  background-color: #ffacac !important;
+  color: #33ff00 !important;
+  background-color: #bbffac !important;
 }
 
 .enable-scrollbar-styles ::-webkit-scrollbar-thumb {
-  background: #ff3845;
-  outline: 1px solid #0e0e17;
+  background: #33ff00;
+  outline: 1px solid #0a0e0a;
   border-radius: 0px;
 }
 
 .enable-scrollbar-styles ::-webkit-scrollbar-corner,
 .enable-scrollbar-styles ::-webkit-scrollbar-track {
-  background: #0e0e17;
+  background: #0a0e0a;
 }
 
 #footerPlayer {
-  border-top: 1px solid #ff3845;
+  border-top: 1px solid #33ff00;
 }
 
 img {
-  border: 1px solid #ff3845 !important;
+  border: 1px solid #33ff00 !important;
 }
