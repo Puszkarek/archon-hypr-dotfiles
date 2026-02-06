@@ -11,12 +11,12 @@ Rectangle {
 
     property int sessionIndex: session.index
 
-    property color neonRed: "#ff3845"
-    property color neonBlue: "#2570d4"
-    property color neonPink: "#ff00a8"
-    property color popupBackground: "#0e0e17"
-    property color screenBackground: "#030305"
-    property color textColor: "#ff3845"
+    property color neonRed: "#33ff00"
+    property color neonBlue: "#00e1ff"
+    property color neonPink: "#ff2e6e"
+    property color popupBackground: "#0a0e0a"
+    property color screenBackground: "#0a0e0a"
+    property color textColor: "#33ff00"
 
     TextConstants { id: textConstants }
 
