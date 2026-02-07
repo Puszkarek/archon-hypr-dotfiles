@@ -1,6 +1,156 @@
+/* Global Reset */
 * {
   background-color: #0e0e17;
   color: #33ff00;
   border-radius: 0;
   border-color: #33ff00;
+  background-image: none; /* Crucial: Remove default gradients */
+  -gtk-icon-shadow: none;
+  text-shadow: none;
+}
+
+/* Scroll Overshoot/Undershoot Cleanup */
+overshoot,
+undershoot,
+scrolledwindow overshoot,
+scrolledwindow undershoot {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* Explicit Window & Dialog Backgrounds */
+window,
+dialog,
+.background,
+.dialog-action-box {
+  background-color: #0e0e17;
+}
+
+/* Header & Titlebars */
+headerbar,
+.titlebar,
+.titlebar:not(headerbar) {
+  background-color: #0e0e17;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Buttons - Robust Selectors */
+button,
+button.flat,
+button.suggested-action,
+button.destructive-action,
+.titlebar button,
+headerbar button {
+  background-color: #0e0e17;
+  background-image: none;
+  border: 1px solid #33ff00;
+  color: #33ff00;
+  box-shadow: none;
+  text-shadow: none;
+  transition: none; /* Prevent transition conflicts */
+}
+
+button:hover,
+button:hover label,
+button:hover image,
+button.flat:hover,
+button.suggested-action:hover,
+button.destructive-action:hover {
+  background-color: #0e0e17;
+  color: #8ffffb;
+  background-image: none;
+}
+
+button:active,
+button:active label,
+button:active image,
+button:checked,
+button:checked label,
+button:checked image,
+button:backdrop {
+  background-color: #0e0e17;
+  background-image: none;
+  color: #ffb000;
+}
+
+/* File Chooser Specifics from Reference */
+filechooser .dialog-action-box {
+  border-top: 1px solid #33ff00;
+  background-color: #0e0e17;
+}
+
+filechooser #pathbarbox {
+  border-bottom: 1px solid #33ff00;
+  background-color: #0e0e17;
+}
+
+/* Places Sidebar - Robust Selectors */
+placessidebar,
+placessidebar.sidebar,
+.sidebar,
+.places-sidebar,
+.sidebar row,
+placessidebar.sidebar row.sidebar-row,
+row,
+treeview,
+list {
+  background-color: #0e0e17;
+  background-image: none;
+  color: #33ff00;
+  border: none;
+}
+
+placessidebar.sidebar row.sidebar-row:hover,
+.sidebar row:hover,
+row:hover,
+treeview:hover,
+list:hover {
+  background-color: #0e0e17;
+  color: #8ffffb;
+}
+
+placessidebar.sidebar row.sidebar-row:hover label,
+.sidebar row:hover label,
+row:hover label {
+  color: #8ffffb;
+}
+
+placessidebar.sidebar row.sidebar-row:hover image,
+.sidebar row:hover image,
+row:hover image {
+  color: #8ffffb;
+}
+
+placessidebar.sidebar row.sidebar-row:selected,
+.sidebar row:selected,
+row:selected,
+treeview:selected,
+list:selected {
+  background-color: #0e0e17;
+  color: #ffb000;
+}
+
+placessidebar.sidebar row.sidebar-row:selected label,
+.sidebar row:selected label,
+row:selected label {
+  color: #ffb000;
+}
+
+placessidebar.sidebar row.sidebar-row:selected image,
+.sidebar row:selected image,
+row:selected image {
+  color: #ffb000;
+}
+
+/* Inputs */
+entry,
+spinbutton {
+  background-color: #0e0e17;
+  background-image: none;
+  border: 1px solid #33ff00;
+  color: #33ff00;
 }
