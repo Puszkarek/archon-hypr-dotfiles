@@ -105,11 +105,6 @@ tooltip label {
   color: #33ff00;
 }
 
-#battery.charging {
-  border: 1px solid #00e1ff;
-  color: #00e1ff;
-}
-
 #battery.warning {
   border: 1px solid #ffb000;
   color: #ffb000;
@@ -121,6 +116,11 @@ tooltip label {
   background-color: #ff2e6e;
   border: 1px solid #ff2e6e;
   color: #0a0e0a;
+}
+
+#battery.charging {
+  border: 1px solid #00e1ff;
+  color: #00e1ff;
 }
 
 #custom-lyrics {
