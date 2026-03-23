@@ -6,7 +6,7 @@ SETUVAR _fisher_plugins:jorgebucaran/fisher
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:BEC8CC
 SETUVAR fish_color_cancel:\x2d\x2dreverse
-SETUVAR fish_color_command:00fff7
+SETUVAR fish_color_command:36d6c3
 SETUVAR fish_color_comment:9d72ff
 SETUVAR fish_color_cwd:green
 SETUVAR fish_color_cwd_root:red
@@ -19,7 +19,7 @@ SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:299a82
-SETUVAR fish_color_param:00fff7
+SETUVAR fish_color_param:36d6c3
 SETUVAR fish_color_quote:26be5e
 SETUVAR fish_color_redirection:ff6bcd
 SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack

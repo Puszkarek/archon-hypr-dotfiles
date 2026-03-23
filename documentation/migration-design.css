@@ -7,7 +7,7 @@
   --primary-color-inactive: #b5ccba;
   --secondary-color: #24bd5c;
 
-  --accent-color: #d0f9f4;
+  --accent-color: #ffa96b;
 
   --red: #ff6b6b;
   --blue: #5494fc;
@@ -23,8 +23,8 @@
 
   --selection-background: #1b4e2ad6;
   --selection-background-inactive: #1b4e2a9f;
-  --selection-active-background: #d0f9f434;
-  --selection-active-background-inactive: #d0f9f423;
+  --selection-active-background: #ffa96b34;
+  --selection-active-background-inactive: #ffa96b23;
   --selection-background: #33653ed6;
   --selection-background-inactive: #33653e8e;
 

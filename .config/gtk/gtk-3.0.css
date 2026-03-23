@@ -1,9 +1,9 @@
 /* Global Reset */
 * {
   background-color: #23262d;
-  color: #33ff00;
+  color: #24bd5c;
   border-radius: 0;
-  border-color: #33ff00;
+  border-color: #24bd5c;
   background-image: none; /* Crucial: Remove default gradients */
   -gtk-icon-shadow: none;
   text-shadow: none;
@@ -47,8 +47,8 @@ button.destructive-action,
 headerbar button {
   background-color: #23262d;
   background-image: none;
-  border: 1px solid #33ff00;
-  color: #33ff00;
+  border: 1px solid #24bd5c;
+  color: #24bd5c;
   box-shadow: none;
   text-shadow: none;
   transition: none; /* Prevent transition conflicts */
@@ -61,7 +61,7 @@ button.flat:hover,
 button.suggested-action:hover,
 button.destructive-action:hover {
   background-color: #23262d;
-  color: #8ffffb;
+  color: #5ce3d2;
   background-image: none;
 }
 
@@ -74,17 +74,17 @@ button:checked image,
 button:backdrop {
   background-color: #23262d;
   background-image: none;
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 /* File Chooser Specifics from Reference */
 filechooser .dialog-action-box {
-  border-top: 1px solid #33ff00;
+  border-top: 1px solid #24bd5c;
   background-color: #23262d;
 }
 
 filechooser #pathbarbox {
-  border-bottom: 1px solid #33ff00;
+  border-bottom: 1px solid #24bd5c;
   background-color: #23262d;
 }
 
@@ -100,7 +100,7 @@ treeview,
 list {
   background-color: #23262d;
   background-image: none;
-  color: #33ff00;
+  color: #24bd5c;
   border: none;
 }
 
@@ -110,19 +110,19 @@ row:hover,
 treeview:hover,
 list:hover {
   background-color: #23262d;
-  color: #8ffffb;
+  color: #5ce3d2;
 }
 
 placessidebar.sidebar row.sidebar-row:hover label,
 .sidebar row:hover label,
 row:hover label {
-  color: #8ffffb;
+  color: #5ce3d2;
 }
 
 placessidebar.sidebar row.sidebar-row:hover image,
 .sidebar row:hover image,
 row:hover image {
-  color: #8ffffb;
+  color: #5ce3d2;
 }
 
 placessidebar.sidebar row.sidebar-row:selected,
@@ -131,19 +131,19 @@ row:selected,
 treeview:selected,
 list:selected {
   background-color: #23262d;
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 placessidebar.sidebar row.sidebar-row:selected label,
 .sidebar row:selected label,
 row:selected label {
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 placessidebar.sidebar row.sidebar-row:selected image,
 .sidebar row:selected image,
 row:selected image {
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 /* Inputs */
@@ -151,6 +151,6 @@ entry,
 spinbutton {
   background-color: #23262d;
   background-image: none;
-  border: 1px solid #33ff00;
-  color: #33ff00;
+  border: 1px solid #24bd5c;
+  color: #24bd5c;
 }

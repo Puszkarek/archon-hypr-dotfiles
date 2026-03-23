@@ -1,7 +1,7 @@
 :root.theme-dark {
   --theme-tab-toolbar-background: #23262d !important;
   --theme-toolbar-background: #23262d !important;
-  --theme-selection-color: #d0f9f4 !important;
+  --theme-selection-color: #ffa96b !important;
   --theme-splitter-color: #24bd5c !important;
   --devtools-splitter-color: #24bd5c !important;
   --theme-toolbar-separator: #24bd5c !important;
@@ -18,7 +18,7 @@
   --badge-scrollable-color: #5494fc !important;
   --badge-scrollable-background-color: #050505 !important;
   --badge-scrollable-active-background-color: #050505 !important;
-  --badge-scrollable-active-color: #d0f9f4 !important;
+  --badge-scrollable-active-color: #ffa96b !important;
   --toolbarbutton-background: #23262d !important;
   --toolbarbutton-hover-background: #23262d !important;
   /*   --badge-active-background-color: red;
@@ -46,8 +46,8 @@
   --theme-toolbar-color: #24bd5c !important;
   --theme-icon-hover-color: #5494fc !important;
   --theme-toolbar-hover-color: #5494fc !important;
-  --theme-icon-active-color: #d0f9f4 !important;
-  --theme-toolbar-active-color: #d0f9f4 !important;
+  --theme-icon-active-color: #ffa96b !important;
+  --theme-toolbar-active-color: #ffa96b !important;
 
   --theme-toolbarbutton-color: #b5ccba !important;
 
@@ -56,12 +56,12 @@
   --theme-transition-duration: 0.2s !important;
   --theme-transition-timing: cubic-bezier(0.4, 0, 0.2, 1) !important;
 
-  --theme-toolbar-selected-hover-color: #d0f9f4 !important;
-  --theme-toolbar-selected-color: #d0f9f4 !important;
+  --theme-toolbar-selected-hover-color: #ffa96b !important;
+  --theme-toolbar-selected-color: #ffa96b !important;
   --theme-toolbar-selected-background: #23262d !important;
   --theme-toolbar-selected-hover: #23262d !important;
 
-  --table-selection-background-hover: #d0f9f434 !important;
+  --table-selection-background-hover: #ffa96b34 !important;
   --theme-selection-background: #23262d !important;
   --theme-focus-outline-color: #5494fc !important;
   --theme-toolbar-hover: #23262d !important;
@@ -71,7 +71,7 @@
   --theme-highlight-purple: #ff6bcd !important;
   --theme-highlight-pink: #ff9fd6 !important;
   --theme-highlight-red: #ff6b6b !important;
-  --theme-highlight-orange: #d0f9f4 !important;
+  --theme-highlight-orange: #ffa96b !important;
   --theme-highlight-lightorange: #b8f238 !important;
   --theme-highlight-green: #26be5e !important;
   --theme-highlight-bluegrey: #299a82 !important;

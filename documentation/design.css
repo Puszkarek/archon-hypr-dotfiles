@@ -1,48 +1,47 @@
 :root {
-  --text-color: #d6eecf;
-  --text-color: #aee29e;
+  --text-color: #e0e3e4;
+  --text-color: #bec8cc;
 
-  --primary-color: #33ff00;
-  --primary-color-rgb: rgb(51 255 0);
-  --primary-color-inactive: #bbffac;
-  --secondary-color: #66ff66;
+  --primary-color: #24bd5c;
+  --primary-color-rgb: rgb(36 189 92);
+  --primary-color-inactive: #b5ccba;
+  --secondary-color: #24bd5c;
 
-  --accent-color: #ffb000;
+  --accent-color: #ffa96b;
 
-  --red: #ff2e6e;
-  --blue: #00e1ff;
-  --cyan: #00fff7;
-  --cyan-hover: #8ffffb;
-  --magenta: #ff00ff;
-  --purple: #b088ff;
-  --green: #88ff00;
-  --teal: #00ffa6;
-  --pink: #ff00aa;
-  --lime: #ccff00;
-  --yellow: #eeff00;
+  --red: #ff6b6b;
+  --blue: #5494fc;
+  --cyan: #36d6c3;
+  --cyan-hover: #5ce3d2;
+  --magenta: #9d72ff;
+  --purple: #ff6bcd;
+  --green: #26be5e;
+  --teal: #299a82;
+  --pink: #ff9fd6;
+  --lime: #b8f238;
+  --yellow: #f9c859;
 
-  --selection-background: #0f630cd6;
-  --selection-background-inactive: #0f630c9f;
-  --selection-active-background: #ffb00034;
-  --selection-active-background-inactive: #ffae0023;
-  --selection-background: #0a7470d6;
-  --selection-background-inactive: #0a74708e;
+  --selection-background: #1b4e2ad6;
+  --selection-background-inactive: #1b4e2a9f;
+  --selection-active-background: #ffa96b34;
+  --selection-active-background-inactive: #ffa96b23;
+  --selection-background: #33653ed6;
+  --selection-background-inactive: #33653e8e;
 
-  --red-selection-background: #ff000034;
+  --red-selection-background: #c66e7334;
 
-  --primary-background: #0a0e0a;
-  --primary-background-rgb: rgb(10 14 10);
-  --primary-hover-background: #111611;
+  --primary-background: #23262d;
+  --primary-background-rgb: rgb(35 38 45);
+  --primary-hover-background: #1e1e24;
 
-  --secondary-background: #121a12;
-  --secondary-hover-background: #1a241a;
+  --secondary-background: #050505;
+  --secondary-hover-background: #0a0a0b;
 
   /* For some TUI apps that does not support hex with alpha */
-  --green-background: #0f630c;
-  --orange-background: #49360b;
-  --red-background: #490b0b;
-  --magenta-background: #490b49;
-  --blue-background: #0b2849;
-  --cyan-background: #0b4949;
+  --green-background: #1b4e2a;
+  --orange-background: #1e1e25;
+  --red-background: #893034;
+  --magenta-background: #1e1e25;
+  --blue-background: #0a0a0b;
+  --cyan-background: #1e1e24;
 }
-

@@ -8,14 +8,14 @@ main_background_color = "#23262d"
 secondary_background_color = "#23262d"
 
 [others]
-selection_highlight_color = "#d0f9f4"
+selection_highlight_color = "#ffa96b"
 environment_variable_highlight_color = "#5494fc"
 
 [methods]
-GET = "#0f630c"
-POST = "#49360b"
-PUT = "#0b4949"
-PATCH = "#0b2849"
-DELETE = "#490b0b"
-HEAD = "#0f630c"
-OPTIONS = "#490b49"
+GET = "#1b4e2a"
+POST = "#1e1e25"
+PUT = "#1e1e24"
+PATCH = "#0a0a0b"
+DELETE = "#893034"
+HEAD = "#1b4e2a"
+OPTIONS = "#1e1e25"

@@ -94,24 +94,24 @@
   --theme-button-active-background: light-dark(rgba(12, 12, 13, 0.1), rgba(249, 249, 250, 0.15));
   --theme-accordion-header-background: light-dark(var(--theme-toolbar-background), #232327);
   --theme-accordion-header-hover: light-dark(var(--theme-toolbar-hover), #2a2a2e);
-  --theme-selection-background: #0a7470d6;
-  --theme-selection-background-hover: #0a7470d6;
-  --theme-selection-focus-background: #ff2e6e4a;
-  --theme-selection-color: #d0f9f4;
-  --theme-text-selection-background: #0a7470d6;
-  --theme-text-selection-unfocused-background: #0a7470d6;
+  --theme-selection-background: #33653ed6;
+  --theme-selection-background-hover: #33653ed6;
+  --theme-selection-focus-background: #ff6b6b4a;
+  --theme-selection-color: #ffa96b;
+  --theme-text-selection-background: #33653ed6;
+  --theme-text-selection-unfocused-background: #33653ed6;
   --theme-splitter-color: light-dark(var(--grey-25), var(--grey-70));
   --theme-emphasized-splitter-color: light-dark(var(--grey-30), var(--grey-60));
   --theme-emphasized-splitter-color-hover: light-dark(var(--grey-40), var(--grey-50));
-  --theme-icon-color: #ff2e6e;
-  --theme-icon-hover-color: #d0f9f4;
+  --theme-icon-color: #ff6b6b;
+  --theme-icon-hover-color: #ffa96b;
   --theme-icon-dimmed-color: light-dark(rgba(135, 135, 137, 0.9), rgba(147, 147, 149, 0.9));
   --theme-icon-disabled-color: #b5ccba;
-  --theme-icon-checked-color: #d0f9f4;
-  --theme-icon-error-color: #ff2e6e;
+  --theme-icon-checked-color: #ffa96b;
+  --theme-icon-error-color: #ff6b6b;
   --theme-icon-warning-color: #f9c859;
   --theme-comment: #b5ccba;
-  --theme-body-color: #ff2e6e;
+  --theme-body-color: #ff6b6b;
   --theme-link-color: #5494fc;
   --theme-internal-link-color: #5494fc;
   --theme-text-color-alt: light-dark(var(--grey-50), var(--grey-45));
@@ -133,10 +133,10 @@
   --theme-graphs-yellow: light-dark(#efc052, #d99b28);
   --theme-graphs-orange: light-dark(#d97e00, #d96629);
   --theme-graphs-grey: light-dark(#cccccc, #757873);
-  --theme-graphs-full-red: #ff2e6e;
+  --theme-graphs-full-red: #ff6b6b;
   --theme-popup-background: #050505;
-  --theme-popup-color: #ff2e6e;
-  --theme-popup-border-color: #ff2e6e;
+  --theme-popup-color: #ff6b6b;
+  --theme-popup-border-color: #ff6b6b;
   --theme-popup-dimmed: light-dark(hsla(0, 0%, 80%, 0.3), rgba(249, 249, 250, 0.1));
   --theme-popup-hover-background: #1b4e2a9f;
   --theme-popup-hover-color: var(--theme-popup-color);
@@ -145,7 +145,7 @@
   --theme-toolbarbutton-hover-background: #1b4e2a9f;
   --theme-toolbarbutton-checked-background: transparent;
   --theme-toolbarbutton-checked-color: var(--tertiary-color);
-  --theme-toolbarbutton-checked-hover-background: #d0f9f434;
+  --theme-toolbarbutton-checked-hover-background: #ffa96b34;
   --theme-toolbarbutton-checked-hover-color: var(--secondary-color);
   --theme-toolbarbutton-active-background: transparent;
   --theme-select-background: transparent;
@@ -172,12 +172,12 @@ splitter {
 :root {
   --text-color: #e4d5ea;
 
-  --primary-color: #ff2e6e;
+  --primary-color: #ff6b6b;
   --primary-color-hover: #b200cc;
   --primary-color-disabled: #9d72ff;
 
-  --secondary-color: #d0f9f4;
-  --secondary-color-hover: #d0f9f4;
+  --secondary-color: #ffa96b;
+  --secondary-color-hover: #ffa96b;
   --secondary-color-disabled: #fff;
 
   --tertiary-color: #ffd700;
@@ -185,17 +185,17 @@ splitter {
   --tertiary-color-disabled: #d1caa7;
 
   --indicador-color: rgba(225, 0, 255, 0.3);
-  --backdrop-color: #ff2e6e;
-  --backdrop-hover-color: #ff2e6e;
-  --backdrop-active-color: #d0f9f4;
+  --backdrop-color: #ff6b6b;
+  --backdrop-hover-color: #ff6b6b;
+  --backdrop-active-color: #ffa96b;
 
-  --hover-color: #d0f9f4;
-  --selection-color: #ff2e6e4a;
-  --active-color: #d0f9f4;
+  --hover-color: #ffa96b;
+  --selection-color: #ff6b6b4a;
+  --active-color: #ffa96b;
   --active-disabled-color: #d1caa7;
 
-  --accent-color: #d0f9f4;
-  --accent-color-hover: #d0f9f4;
+  --accent-color: #ffa96b;
+  --accent-color-hover: #ffa96b;
   --highlight-color: #9d00b3;
 
   --primary-background-hover: transparent;
@@ -205,10 +205,10 @@ splitter {
 
   --yellow: #ffd700;
   --orange: #ffa500;
-  --red: #ff2e6e;
+  --red: #ff6b6b;
   --green: #00ff00;
-  --cyan: #d0f9f4;
-  --purple: #ff2e6e;
+  --cyan: #ffa96b;
+  --purple: #ff6b6b;
 
   --urlbarView-separator-color: var(--primary-color);
   --vertical-tabs-scrollbar-color: var(--primary-background);
@@ -296,11 +296,11 @@ splitter {
 :root {
   &[lwtheme] {
     --link-color: #5494fc;
-    --tabs-navbar-separator-color: #ff2e6e;
+    --tabs-navbar-separator-color: #ff6b6b;
     --attention-dot-color: #5494fc;
     --toolbox-bgcolor: #23262d;
     --toolbox-bgcolor-inactive: #23262d;
-    --toolbox-textcolor: #ff2e6e;
+    --toolbox-textcolor: #ff6b6b;
     --toolbox-textcolor-inactive: #b5ccba;
   }
 }
@@ -349,15 +349,15 @@ html#main-window {
   --zen-element-separation: 8px;
   --zen-grainy-background-opacity: 0;
   --zen-main-browser-background-toolbar: var(--zen-themed-toolbar-bg);
-  --chrome-content-separator-color: #ff2e6e !important;
-  --input-border-color: #ff2e6e !important;
+  --chrome-content-separator-color: #ff6b6b !important;
+  --input-border-color: #ff6b6b !important;
   --toolbar-field-color: #b5ccba !important;
   --toolbar-field-background-color: #23262d !important;
   --input-bgcolor: #23262d !important;
   --input-color: #b5ccba !important;
   --toolbar-field-focus-background-color: #050505 !important;
-  --toolbar-field-focus-color: #ff2e6e !important;
-  --toolbar-field-focus-border-color: #ff2e6e !important;
+  --toolbar-field-focus-color: #ff6b6b !important;
+  --toolbar-field-focus-border-color: #ff6b6b !important;
 }
 
 body {
@@ -441,7 +441,7 @@ toolbarbutton:active {
 
 #urlbar {
   --toolbarbutton-border-radius: 0;
-  --urlbarView-separator-color: #ff2e6e !important;
+  --urlbarView-separator-color: #ff6b6b !important;
   --urlbarView-hover-background: transparent;
   --urlbarView-highlight-background: transparent;
   --urlbar-box-bgcolor: transparent !important;
@@ -457,7 +457,7 @@ toolbarbutton:active {
       --zen-dialog-background: #23262d;
       background: #23262d !important;
 
-      --zen-colors-border-contrast: #ff2e6e;
+      --zen-colors-border-contrast: #ff6b6b;
     }
   }
 }
@@ -482,41 +482,41 @@ toolbarbutton:active {
 
 #urlbar:not([breakout-extend='true']) {
   &:hover #urlbar-background {
-    background-color: #d0f9f434 !important;
+    background-color: #ffa96b34 !important;
   }
 }
 
 .urlbarView-row {
   margin: 0 3px;
   color: #5494fc !important;
-  --urlbarView-highlight-color: #ff2e6e;
+  --urlbarView-highlight-color: #ff6b6b;
 
   .urlbarView-favicon {
     display: none !important;
   }
 
   &:hover {
-    color: #ff2e6e;
+    color: #ff6b6b;
     background-color: #1b4e2ad6 !important;
 
     & .urlbarView-url,
     & .urlbarView-title,
     & .urlbarView-action,
     & .urlbarView-title-separator::before {
-      color: #ff2e6e !important;
+      color: #ff6b6b !important;
     }
   }
 
   & [selected] {
-    --urlbarView-highlight-color: #d0f9f4;
-    color: #d0f9f4;
+    --urlbarView-highlight-color: #ffa96b;
+    color: #ffa96b;
     background-color: #1b4e2ad6 !important;
 
     & .urlbarView-url,
     & .urlbarView-title,
     & .urlbarView-action,
     & .urlbarView-title-separator::before {
-      color: #d0f9f4 !important;
+      color: #ffa96b !important;
     }
   }
 }
@@ -525,7 +525,7 @@ toolbarbutton:active {
   &[selected] {
     & *,
     & .urlbarView-title-separator::before {
-      color: #d0f9f4 !important;
+      color: #ffa96b !important;
     }
   }
 }
@@ -793,13 +793,13 @@ toolbar {
 
 .findbar-textbox {
   &[status='notfound'] {
-    background-color: #ff000034;
+    background-color: #c66e7334;
     color: #b5ccba !important;
   }
 }
 
 .vertical-pinned-tabs-container-separator {
-  background: #ff2e6e !important;
+  background: #ff6b6b !important;
 }
 
 :root:not([inDOMFullscreen='true']):not([chromehidden~='location']):not([chromehidden~='toolbar']) {

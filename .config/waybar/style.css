@@ -14,12 +14,12 @@ window#waybar {
 }
 
 tooltip {
-  background-color: #0a0e0a;
-  border: 1px solid #ffb000;
+  background-color: #23262d;
+  border: 1px solid #ffa96b;
 }
 
 tooltip label {
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 #clock,
@@ -35,38 +35,38 @@ tooltip label {
 }
 
 #workspaces button {
-  background-color: #0a0e0a;
-  border: 1px solid #33ff00;
+  background-color: #23262d;
+  border: 1px solid #24bd5c;
   padding: 0 12px;
   margin-right: 6px;
 }
 
 #workspaces button * {
-  color: #33ff00;
+  color: #24bd5c;
 }
 
 #workspaces > .active {
-  background-color: #33ff00;
-  border-color: #33ff00;
+  background-color: #24bd5c;
+  border-color: #24bd5c;
 }
 #workspaces button.active * {
-  color: #0a0e0a;
+  color: #23262d;
 }
 
 #workspaces > .special {
-  background-color: #00e1ff;
-  border-color: #00e1ff;
+  background-color: #5494fc;
+  border-color: #5494fc;
 }
 #workspaces button.special * {
-  color: #0a0e0a;
+  color: #23262d;
 }
 
 #workspaces > .urgent {
-  background-color: #ff2e6e;
-  border-color: #ff2e6e;
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
 }
 #workspaces button.urgent * {
-  color: #0a0e0a;
+  color: #23262d;
 }
 
 #workspaces button:hover {
@@ -77,19 +77,19 @@ tooltip label {
 }
 
 #workspaces button:hover * {
-  color: #33ff00;
+  color: #24bd5c;
 }
 
 #clock {
-  background-color: #0a0e0a;
-  border: 1px solid #33ff00;
-  color: #33ff00;
+  background-color: #23262d;
+  border: 1px solid #24bd5c;
+  color: #24bd5c;
   margin-left: 6px;
 }
 
 #tray {
-  background-color: #0a0e0a;
-  border: 1px solid #33ff00;
+  background-color: #23262d;
+  border: 1px solid #24bd5c;
 }
 
 #cpu,
@@ -99,54 +99,54 @@ tooltip label {
 #tray,
 #custom-cava,
 #temperature {
-  background-color: #0a0e0a;
-  border: 1px solid #33ff00;
+  background-color: #23262d;
+  border: 1px solid #24bd5c;
   margin-left: 6px;
-  color: #33ff00;
+  color: #24bd5c;
 }
 
 #battery.warning {
-  border: 1px solid #ffb000;
-  color: #ffb000;
+  border: 1px solid #ffa96b;
+  color: #ffa96b;
 }
 
 #battery.critical,
 #cpu.critical,
 #memory.critical {
-  background-color: #ff2e6e;
-  border: 1px solid #ff2e6e;
-  color: #0a0e0a;
+  background-color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  color: #23262d;
 }
 
 #battery.charging {
-  background-color: #0a0e0a;
-  border: 1px solid #00e1ff;
-  color: #00e1ff;
+  background-color: #23262d;
+  border: 1px solid #5494fc;
+  color: #5494fc;
 }
 
 #custom-lyrics {
   margin-left: 6px;
-  color: #33ff00;
+  color: #24bd5c;
 }
 
 #custom-lyrics:hover {
-  color: #ffb000;
+  color: #ffa96b;
 }
 
 #custom-lyrics.no-song,
 #custom-lyrics.no-lyrics {
-  background-color: #0a0e0a;
-  border: 1px solid #ff2e6e;
-  color: #ff2e6e;
+  background-color: #23262d;
+  border: 1px solid #ff6b6b;
+  color: #ff6b6b;
 }
 
 #custom-lyrics.has-song {
-  background-color: #0a0e0a;
-  border: 1px solid #33ff00;
+  background-color: #23262d;
+  border: 1px solid #24bd5c;
 }
 
 #custom-lyrics .next-line {
-  color: #bbffac;
+  color: #b5ccba;
   font-style: italic;
 }
 

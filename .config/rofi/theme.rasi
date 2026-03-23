@@ -5,34 +5,34 @@
  *******************************************************************************/
 
 * {
-    selected-normal-foreground:  #0a0e0a;
-    foreground:                  #33ff00;
+    selected-normal-foreground:  #23262d;
+    foreground:                  #24bd5c;
     normal-foreground:           @foreground;
-    alternate-normal-background: #0a0e0a;
-    red:                         #ff2e6e;
-    selected-urgent-foreground:  #0a0e0a;
-    blue:                        #00e1ff;
-    urgent-foreground:           #ff2e6e;
-    alternate-urgent-background: #0a0e0a;
-    active-foreground:           #ffb000;
-    lightbg:                     #0a0e0a;
-    selected-active-foreground:  #ffb000;
-    alternate-active-background: #0a0e0a;
-    background:                  #0a0e0a;
-    bordercolor:                 #33ff00;
+    alternate-normal-background: #23262d;
+    red:                         #ff6b6b;
+    selected-urgent-foreground:  #23262d;
+    blue:                        #5494fc;
+    urgent-foreground:           #ff6b6b;
+    alternate-urgent-background: #23262d;
+    active-foreground:           #ffa96b;
+    lightbg:                     #23262d;
+    selected-active-foreground:  #ffa96b;
+    alternate-active-background: #23262d;
+    background:                  #23262d;
+    bordercolor:                 #24bd5c;
     alternate-normal-foreground: @foreground;
-    normal-background:           #0a0e0a;
-    lightfg:                     #33ff00;
-    selected-normal-background:  #33ff00;
+    normal-background:           #23262d;
+    lightfg:                     #24bd5c;
+    selected-normal-background:  #24bd5c;
     border-color:                @foreground;
     spacing:                     2;
-    urgent-background:           #0a0e0a;
-    selected-urgent-background:  #ff2e6e;
+    urgent-background:           #23262d;
+    selected-urgent-background:  #ff6b6b;
     alternate-urgent-foreground: @urgent-foreground;
     background-color:            rgba ( 0, 0, 0, 0 % );
     alternate-active-foreground: @active-foreground;
-    active-background:           #0a0e0a;
-    selected-active-background:  #0a0e0a;
+    active-background:           #23262d;
+    selected-active-background:  #23262d;
 }
 window {
     background-color: @background;

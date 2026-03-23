@@ -5,7 +5,7 @@ global:
   textColor: '#24bd5c'
   secondaryTextColor: '#24bd5c'
   borderColor: '#24bd5c'
-  focusColor: '#d0f9f4'
+  focusColor: '#ffa96b'
   titleColor: '#24bd5c'
   graphicsColor: '#24bd5c'
 welcome:
@@ -17,7 +17,7 @@ connection:
   formInputColor: '#24bd5c'
   formInputBackgroundColor: '#050505'
   listTextColor: '#24bd5c'
-  listSelectedTextColor: '#d0f9f4'
+  listSelectedTextColor: '#ffa96b'
   listSelectedBackgroundColor: '#23262d'
   listSecondaryTextColor: '#23262d'
   listSecondaryBackgroundColor: '#24bd5c'
@@ -43,12 +43,12 @@ content:
   columnKeyColor: '#23262d'
   columnTypeColor: '#24bd5c'
   cellTextColor: '#24bd5c'
-  selectedRowColor: '#d0f9f4'
+  selectedRowColor: '#ffa96b'
 docPeeker:
   keyColor: '#24bd5c'
   valueColor: '#24bd5c'
   bracketColor: '#24bd5c'
-  highlightColor: '#d0f9f4'
+  highlightColor: '#ffa96b'
 inputBar:
   labelColor: '#24bd5c'
   inputColor: '#b5ccba'
@@ -56,11 +56,11 @@ inputBar:
     backgroundColor: '#050505'
     textColor: '#24bd5c'
     activeBackgroundColor: '#23262d'
-    activeTextColor: '#d0f9f4'
+    activeTextColor: '#ffa96b'
     secondaryTextColor: '#b5ccba'
 history:
   textColor: '#24bd5c'
-  selectedTextColor: '#d0f9f4'
+  selectedTextColor: '#ffa96b'
   selectedBackgroundColor: '#23262d'
 help:
   headerColor: '#24bd5c'

@@ -12,10 +12,10 @@ sidebar_border = "#24bd5c"
 footer_border = "#24bd5c"
 
 # border active
-file_panel_border_active = "#d0f9f4"
-sidebar_border_active = "#d0f9f4"
-footer_border_active = "#d0f9f4"
-modal_border_active = "#d0f9f4"
+file_panel_border_active = "#ffa96b"
+sidebar_border_active = "#ffa96b"
+footer_border_active = "#ffa96b"
+modal_border_active = "#ffa96b"
 
 # background (bg)
 full_screen_bg = "#23262d"
@@ -33,27 +33,27 @@ modal_fg = "#24bd5c"
 
 # special color
 cursor = "#24bd5c"
-correct = "#ff00ff"
-error = "#ff2e6e"
+correct = "#9d72ff"
+error = "#ff6b6b"
 hint = "#5494fc"
-cancel = "#ff2e6e"
+cancel = "#ff6b6b"
 gradient_color = ["#24bd5c", "#24bd5c"]
 
 # file panel special items
 file_panel_top_directory_icon = "#24bd5c"
 file_panel_top_path = "#24bd5c"
-file_panel_item_selected_fg = "#d0f9f4"
+file_panel_item_selected_fg = "#ffa96b"
 file_panel_item_selected_bg = "#23262d"
 
 # sidebar special items
 sidebar_title = "#24bd5c"
-sidebar_item_selected_fg = "#d0f9f4"
+sidebar_item_selected_fg = "#ffa96b"
 sidebar_item_selected_bg = "#23262d"
 sidebar_divider = "#24bd5c"
 
 # modal special items
 modal_cancel_fg = "#23262d"
-modal_cancel_bg = "#ff2e6e"
+modal_cancel_bg = "#ff6b6b"
 
 modal_confirm_fg = "#23262d"
 modal_confirm_bg = "#24bd5c"
