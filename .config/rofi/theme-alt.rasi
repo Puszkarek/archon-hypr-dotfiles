@@ -14,11 +14,11 @@ configuration {
 
 * {
   /* Color definitions from base theme */
-  background-color-main: #0e0e17;
-  foreground-color-main: #2570d4;
-  active-color:          #fb932e;
-  selected-fg:           #0e0e17;
-  border-color-main:     #2570d4;
+  background-color-main: #23262d;
+  foreground-color-main: #5494fc;
+  active-color:          #d0f9f4;
+  selected-fg:           #23262d;
+  border-color-main:     #5494fc;
   
   /* Apply the colors */
   bg: @background-color-main;
@@ -72,7 +72,7 @@ metadata-right {
     border: 2 0 2 0;
     border-color: @foreground-color-main;
     orientation: horizontal;
-    background-color: #2570d433;
+    background-color: #5494fc33;
     children: ["textbox-status"];
 }
 
@@ -82,7 +82,7 @@ metadata-left {
     border: 2 0 2 0;
     border-color: @foreground-color-main;
     orientation: horizontal;
-    background-color: #2570d433;
+    background-color: #5494fc33;
     children: [ "textbox-label" ];
 }
 
@@ -118,7 +118,7 @@ textbox-title {
 inputbar-wrapper {
     border: 2 0 2 0;
     border-color: @foreground-color-main;
-    background-color: #2570d433;
+    background-color: #5494fc33;
     expand: false;
     children: [ "inputbar"];
 }

@@ -1,26 +1,26 @@
 :root.theme-dark {
-  --theme-tab-toolbar-background: #0e0e17 !important;
-  --theme-toolbar-background: #0e0e17 !important;
-  --theme-selection-color: #fb932e !important;
-  --theme-splitter-color: #ff3845 !important;
-  --devtools-splitter-color: #ff3845 !important;
-  --theme-toolbar-separator: #ff3845 !important;
-  --theme-emphasized-splitter-color: #ff3845 !important;
-  --theme-comment: #ffacac !important;
-  --theme-icon-dimmed-color: #ffacac !important;
+  --theme-tab-toolbar-background: #23262d !important;
+  --theme-toolbar-background: #23262d !important;
+  --theme-selection-color: #d0f9f4 !important;
+  --theme-splitter-color: #24bd5c !important;
+  --devtools-splitter-color: #24bd5c !important;
+  --theme-toolbar-separator: #24bd5c !important;
+  --theme-emphasized-splitter-color: #24bd5c !important;
+  --theme-comment: #b5ccba !important;
+  --theme-icon-dimmed-color: #b5ccba !important;
 
-  --test-theme-body-background: #0e0e17 !important;
-  --theme-body-background: #0e0e17 !important;
-  --theme-sidebar-background: #0e0e17 !important;
-  --theme-accordion-header-background: #0e0e17 !important;
-  --theme-accordion-header-hover-background: #0e0e17 !important;
+  --test-theme-body-background: #23262d !important;
+  --theme-body-background: #23262d !important;
+  --theme-sidebar-background: #23262d !important;
+  --theme-accordion-header-background: #23262d !important;
+  --theme-accordion-header-hover-background: #23262d !important;
 
-  --badge-scrollable-color: #2570d4 !important;
-  --badge-scrollable-background-color: #030305 !important;
-  --badge-scrollable-active-background-color: #030305 !important;
-  --badge-scrollable-active-color: #fb932e !important;
-  --toolbarbutton-background: #0e0e17 !important;
-  --toolbarbutton-hover-background: #0e0e17 !important;
+  --badge-scrollable-color: #5494fc !important;
+  --badge-scrollable-background-color: #050505 !important;
+  --badge-scrollable-active-background-color: #050505 !important;
+  --badge-scrollable-active-color: #d0f9f4 !important;
+  --toolbarbutton-background: #23262d !important;
+  --toolbarbutton-hover-background: #23262d !important;
   /*   --badge-active-background-color: red;
   --badge-active-border-color: red;
   --badge-background-color: red;
@@ -35,61 +35,61 @@
   --devtools-splitter-inline-start-width: 4px !important;
   --devtools-splitter-inline-end-width: 4px !important;
 
-  --theme-body-color: #ff3845 !important;
-  --theme-text-color-alt: #ff6872 !important;
-  --theme-body-color-alt: #ff6872 !important;
-  --theme-content-color1: #ff6872 !important;
-  --theme-content-color2: #ff3845 !important;
-  --theme-content-color3: #ffacac !important;
+  --theme-body-color: #24bd5c !important;
+  --theme-text-color-alt: #24bd5c !important;
+  --theme-body-color-alt: #24bd5c !important;
+  --theme-content-color1: #24bd5c !important;
+  --theme-content-color2: #24bd5c !important;
+  --theme-content-color3: #b5ccba !important;
 
-  --theme-icon-color: #ff3845 !important;
-  --theme-toolbar-color: #ff3845 !important;
-  --theme-icon-hover-color: #2570d4 !important;
-  --theme-toolbar-hover-color: #2570d4 !important;
-  --theme-icon-active-color: #fb932e !important;
-  --theme-toolbar-active-color: #fb932e !important;
+  --theme-icon-color: #24bd5c !important;
+  --theme-toolbar-color: #24bd5c !important;
+  --theme-icon-hover-color: #5494fc !important;
+  --theme-toolbar-hover-color: #5494fc !important;
+  --theme-icon-active-color: #d0f9f4 !important;
+  --theme-toolbar-active-color: #d0f9f4 !important;
 
-  --theme-toolbarbutton-color: #ffacac !important;
+  --theme-toolbarbutton-color: #b5ccba !important;
 
   --theme-border-radius: 0 !important;
   --theme-box-shadow: none !important;
   --theme-transition-duration: 0.2s !important;
   --theme-transition-timing: cubic-bezier(0.4, 0, 0.2, 1) !important;
 
-  --theme-toolbar-selected-hover-color: #fb932e !important;
-  --theme-toolbar-selected-color: #fb932e !important;
-  --theme-toolbar-selected-background: #0e0e17 !important;
-  --theme-toolbar-selected-hover: #0e0e17 !important;
+  --theme-toolbar-selected-hover-color: #d0f9f4 !important;
+  --theme-toolbar-selected-color: #d0f9f4 !important;
+  --theme-toolbar-selected-background: #23262d !important;
+  --theme-toolbar-selected-hover: #23262d !important;
 
-  --table-selection-background-hover: #ff687234 !important;
-  --theme-selection-background: #0e0e17 !important;
-  --theme-focus-outline-color: #2570d4 !important;
-  --theme-toolbar-hover: #0e0e17 !important;
-  --theme-toolbar-active: #0e0e17 !important;
+  --table-selection-background-hover: #d0f9f434 !important;
+  --theme-selection-background: #23262d !important;
+  --theme-focus-outline-color: #5494fc !important;
+  --theme-toolbar-hover: #23262d !important;
+  --theme-toolbar-active: #23262d !important;
 
-  --theme-highlight-blue: #2570d4 !important;
-  --theme-highlight-purple: #9d2bf5 !important;
-  --theme-highlight-pink: #ff0077 !important;
-  --theme-highlight-red: #f75049 !important;
-  --theme-highlight-orange: #fb932e !important;
-  --theme-highlight-lightorange: #d0ff00 !important;
-  --theme-highlight-green: #00ff44 !important;
-  --theme-highlight-bluegrey: #00ffcc !important;
-  --theme-highlight-yellow: #f0b437 !important;
+  --theme-highlight-blue: #5494fc !important;
+  --theme-highlight-purple: #ff6bcd !important;
+  --theme-highlight-pink: #ff9fd6 !important;
+  --theme-highlight-red: #ff6b6b !important;
+  --theme-highlight-orange: #d0f9f4 !important;
+  --theme-highlight-lightorange: #b8f238 !important;
+  --theme-highlight-green: #26be5e !important;
+  --theme-highlight-bluegrey: #299a82 !important;
+  --theme-highlight-yellow: #f9c859 !important;
 
-  --console-error-color: #ff00a8;
-  --console-error-border: #ff3845;
-  --console-error-background: #030305;
-  --theme-icon-error-color: #ff00a8;
+  --console-error-color: #9d72ff;
+  --console-error-border: #24bd5c;
+  --console-error-background: #050505;
+  --theme-icon-error-color: #9d72ff;
 
-  --console-warning-color: #f0b437;
-  --console-warning-border: #f0b437;
-  --console-warning-background: #030305;
-  --theme-icon-warning-color: #f0b437;
+  --console-warning-color: #f9c859;
+  --console-warning-border: #f9c859;
+  --console-warning-background: #050505;
+  --theme-icon-warning-color: #f9c859;
 
-  --row-striped-background: #030305 !important;
+  --row-striped-background: #050505 !important;
 
-  scrollbar-color: #2570d4 #030305 !important;
+  scrollbar-color: #5494fc #050505 !important;
 
   .message {
     padding: 4px;
@@ -97,24 +97,24 @@
   }
 
   .message-repeats {
-    background-color: #0e0e17 !important;
+    background-color: #23262d !important;
     color: black !important;
   }
 
   .frame-link-filename {
-    color: #00fefc !important;
+    color: #36d6c3 !important;
   }
 
   .frame-link .frame-link-source {
-    color: #00fefc !important;
+    color: #36d6c3 !important;
   }
 
   .ruleview-rule-source-label {
-    color: #00fefcbd !important;
+    color: #36d6c3bd !important;
   }
 
   .panel-container {
-    background: #0e0e17 !important;
+    background: #23262d !important;
     border-radius: 0 !important;
   }
 
@@ -123,7 +123,7 @@
   }
 
   .network-monitor {
-    outline: 1px solid #ff3845 !important;
+    outline: 1px solid #24bd5c !important;
     border-radius: 0 !important;
   }
 
@@ -132,7 +132,7 @@
   }
 
   .theme-body {
-    background: #0e0e17 !important;
+    background: #23262d !important;
   }
 
   .devtools-tab,
@@ -140,7 +140,7 @@
     border-radius: var(--theme-border-radius) var(--theme-border-radius) 0 0 !important;
     transition: background-color var(--theme-transition-duration) var(--theme-transition-timing), box-shadow var(--theme-transition-duration) var(--theme-transition-timing), padding var(--theme-transition-duration) var(--theme-transition-timing) !important;
     font-family: var(--theme-font-family);
-    color: #ff3845;
+    color: #24bd5c;
     letter-spacing: 0.2px;
   }
 
@@ -172,7 +172,7 @@
   }
 
   .splitview-nav > li.splitview-active {
-    background-color: #0e0e17 !important;
+    background-color: #23262d !important;
   }
 
   .devtools-container,
@@ -206,8 +206,8 @@
   }
 
   .devtools-togglebutton[aria-pressed='true'] {
-    background-color: #0e0e17 !important;
-    color: #ff3845 !important;
+    background-color: #23262d !important;
+    color: #24bd5c !important;
   }
 
   .split-box.vert > .splitter {
@@ -243,11 +243,11 @@
   }
 
   .theme-selected {
-    background-color: #0e0e17 !important;
+    background-color: #23262d !important;
   }
 
   .ruleview-highlight {
-    background-color: #030305 !important;
+    background-color: #050505 !important;
   }
 
   .devtools-tabbar-button.checked {
@@ -272,7 +272,7 @@
   }
 
   .checkbox-container.menu-standard-padding {
-    background: #0e0e17 !important;
+    background: #23262d !important;
     border-radius: 0 !important;
   }
   /* 
@@ -301,26 +301,26 @@
 
 input[type='checkbox'] {
   appearance: none;
-  background-color: #030305;
-  color: #2570d4;
+  background-color: #050505;
+  color: #5494fc;
   width: 1.25rem;
   height: 1.25rem;
-  border: 1px solid #ff3845;
+  border: 1px solid #24bd5c;
 }
 
 input[type='checkbox']:checked {
-  background-color: #ff3845;
-  outline: 2px solid #030305;
+  background-color: #24bd5c;
+  outline: 2px solid #050505;
   outline-offset: -3px;
 }
 
 input[type='checkbox']:disabled {
-  border-color: #ffacac;
+  border-color: #b5ccba;
   cursor: not-allowed;
 }
 
 button:hover {
-  color: #2570d4 !important;
+  color: #5494fc !important;
 }
 
 @keyframes tooltipFade {

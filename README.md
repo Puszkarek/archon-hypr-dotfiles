@@ -1,5 +1,5 @@
 <h2 align="center">
- <b style="font-size:24px;line-height:24px;vertical-align:middle; color: #ff3845;"><i>Cyberpunk 2077 - hyprland-dotfiles</i></b>
+ <b style="font-size:24px;line-height:24px;vertical-align:middle; color: #24bd5c;"><i>Cyberpunk 2077 - hyprland-dotfiles</i></b>
 </h2>
 
 ![Screenshot](./screenshots/01.png)

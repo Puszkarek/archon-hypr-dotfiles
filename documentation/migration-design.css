@@ -1,0 +1,47 @@
+:root {
+  --text-color: #e0e3e4;
+  --text-color: #bec8cc;
+
+  --primary-color: #24bd5c;
+  --primary-color-rgb: rgb(36 189 92);
+  --primary-color-inactive: #b5ccba;
+  --secondary-color: #24bd5c;
+
+  --accent-color: #d0f9f4;
+
+  --red: #ff6b6b;
+  --blue: #5494fc;
+  --cyan: #36d6c3;
+  --cyan-hover: #5ce3d2;
+  --magenta: #9d72ff;
+  --purple: #ff6bcd;
+  --green: #26be5e;
+  --teal: #299a82;
+  --pink: #ff9fd6;
+  --lime: #b8f238;
+  --yellow: #f9c859;
+
+  --selection-background: #1b4e2ad6;
+  --selection-background-inactive: #1b4e2a9f;
+  --selection-active-background: #d0f9f434;
+  --selection-active-background-inactive: #d0f9f423;
+  --selection-background: #33653ed6;
+  --selection-background-inactive: #33653e8e;
+
+  --red-selection-background: #c66e7334;
+
+  --primary-background: #23262d;
+  --primary-background-rgb: rgb(35 38 45);
+  --primary-hover-background: #1e1e24;
+
+  --secondary-background: #050505;
+  --secondary-hover-background: #0a0a0b;
+
+  /* For some TUI apps that does not support hex with alpha */
+  --green-background: #1b4e2a;
+  --orange-background: #1e1e25;
+  --red-background: #893034;
+  --magenta-background: #1e1e25;
+  --blue-background: #0a0a0b;
+  --cyan-background: #1e1e24;
+}

@@ -1,6 +1,6 @@
 /* Global Reset */
 * {
-  background-color: #0e0e17;
+  background-color: #23262d;
   color: #33ff00;
   border-radius: 0;
   border-color: #33ff00;
@@ -25,14 +25,14 @@ window,
 dialog,
 .background,
 .dialog-action-box {
-  background-color: #0e0e17;
+  background-color: #23262d;
 }
 
 /* Header & Titlebars */
 headerbar,
 .titlebar,
 .titlebar:not(headerbar) {
-  background-color: #0e0e17;
+  background-color: #23262d;
   background-image: none;
   border: none;
   box-shadow: none;
@@ -45,7 +45,7 @@ button.suggested-action,
 button.destructive-action,
 .titlebar button,
 headerbar button {
-  background-color: #0e0e17;
+  background-color: #23262d;
   background-image: none;
   border: 1px solid #33ff00;
   color: #33ff00;
@@ -60,7 +60,7 @@ button:hover image,
 button.flat:hover,
 button.suggested-action:hover,
 button.destructive-action:hover {
-  background-color: #0e0e17;
+  background-color: #23262d;
   color: #8ffffb;
   background-image: none;
 }
@@ -72,7 +72,7 @@ button:checked,
 button:checked label,
 button:checked image,
 button:backdrop {
-  background-color: #0e0e17;
+  background-color: #23262d;
   background-image: none;
   color: #ffb000;
 }
@@ -80,12 +80,12 @@ button:backdrop {
 /* File Chooser Specifics from Reference */
 filechooser .dialog-action-box {
   border-top: 1px solid #33ff00;
-  background-color: #0e0e17;
+  background-color: #23262d;
 }
 
 filechooser #pathbarbox {
   border-bottom: 1px solid #33ff00;
-  background-color: #0e0e17;
+  background-color: #23262d;
 }
 
 /* Places Sidebar - Robust Selectors */
@@ -98,7 +98,7 @@ placessidebar.sidebar row.sidebar-row,
 row,
 treeview,
 list {
-  background-color: #0e0e17;
+  background-color: #23262d;
   background-image: none;
   color: #33ff00;
   border: none;
@@ -109,7 +109,7 @@ placessidebar.sidebar row.sidebar-row:hover,
 row:hover,
 treeview:hover,
 list:hover {
-  background-color: #0e0e17;
+  background-color: #23262d;
   color: #8ffffb;
 }
 
@@ -130,7 +130,7 @@ placessidebar.sidebar row.sidebar-row:selected,
 row:selected,
 treeview:selected,
 list:selected {
-  background-color: #0e0e17;
+  background-color: #23262d;
   color: #ffb000;
 }
 
@@ -149,7 +149,7 @@ row:selected image {
 /* Inputs */
 entry,
 spinbutton {
-  background-color: #0e0e17;
+  background-color: #23262d;
   background-image: none;
   border: 1px solid #33ff00;
   color: #33ff00;

@@ -97,23 +97,23 @@
   --theme-selection-background: #0a7470d6;
   --theme-selection-background-hover: #0a7470d6;
   --theme-selection-focus-background: #ff2e6e4a;
-  --theme-selection-color: #fb932e;
+  --theme-selection-color: #d0f9f4;
   --theme-text-selection-background: #0a7470d6;
   --theme-text-selection-unfocused-background: #0a7470d6;
   --theme-splitter-color: light-dark(var(--grey-25), var(--grey-70));
   --theme-emphasized-splitter-color: light-dark(var(--grey-30), var(--grey-60));
   --theme-emphasized-splitter-color-hover: light-dark(var(--grey-40), var(--grey-50));
   --theme-icon-color: #ff2e6e;
-  --theme-icon-hover-color: #fb932e;
+  --theme-icon-hover-color: #d0f9f4;
   --theme-icon-dimmed-color: light-dark(rgba(135, 135, 137, 0.9), rgba(147, 147, 149, 0.9));
-  --theme-icon-disabled-color: #ffacac;
-  --theme-icon-checked-color: #fb932e;
+  --theme-icon-disabled-color: #b5ccba;
+  --theme-icon-checked-color: #d0f9f4;
   --theme-icon-error-color: #ff2e6e;
-  --theme-icon-warning-color: #f0b437;
-  --theme-comment: #ffacac;
+  --theme-icon-warning-color: #f9c859;
+  --theme-comment: #b5ccba;
   --theme-body-color: #ff2e6e;
-  --theme-link-color: #2570d4;
-  --theme-internal-link-color: #2570d4;
+  --theme-link-color: #5494fc;
+  --theme-internal-link-color: #5494fc;
   --theme-text-color-alt: light-dark(var(--grey-50), var(--grey-45));
   --theme-text-color-inactive: light-dark(var(--grey-40), var(--grey-50));
   --theme-text-color-error: light-dark(var(--red-60), var(--grey-10));
@@ -134,18 +134,18 @@
   --theme-graphs-orange: light-dark(#d97e00, #d96629);
   --theme-graphs-grey: light-dark(#cccccc, #757873);
   --theme-graphs-full-red: #ff2e6e;
-  --theme-popup-background: #030305;
+  --theme-popup-background: #050505;
   --theme-popup-color: #ff2e6e;
   --theme-popup-border-color: #ff2e6e;
   --theme-popup-dimmed: light-dark(hsla(0, 0%, 80%, 0.3), rgba(249, 249, 250, 0.1));
-  --theme-popup-hover-background: #630c0c9f;
+  --theme-popup-hover-background: #1b4e2a9f;
   --theme-popup-hover-color: var(--theme-popup-color);
   --theme-toolbarbutton-background: none;
   --theme-toolbarbutton-color: light-dark(var(--grey-70), var(--grey-40));
-  --theme-toolbarbutton-hover-background: #630c0c9f;
+  --theme-toolbarbutton-hover-background: #1b4e2a9f;
   --theme-toolbarbutton-checked-background: transparent;
   --theme-toolbarbutton-checked-color: var(--tertiary-color);
-  --theme-toolbarbutton-checked-hover-background: #fb932e34;
+  --theme-toolbarbutton-checked-hover-background: #d0f9f434;
   --theme-toolbarbutton-checked-hover-color: var(--secondary-color);
   --theme-toolbarbutton-active-background: transparent;
   --theme-select-background: transparent;
@@ -161,8 +161,8 @@
   --theme-search-results-background: var(--theme-contrast-background);
   --theme-search-results-color: var(--theme-contrast-color);
   --theme-search-results-border-color: var(--theme-contrast-border);
-  --text-color-disabled: #ffacac !important;
-  --toolbar-bgcolor: #0e0e17 !important;
+  --text-color-disabled: #b5ccba !important;
+  --toolbar-bgcolor: #23262d !important;
 }
 
 splitter {
@@ -174,10 +174,10 @@ splitter {
 
   --primary-color: #ff2e6e;
   --primary-color-hover: #b200cc;
-  --primary-color-disabled: #c3a7d1;
+  --primary-color-disabled: #9d72ff;
 
-  --secondary-color: #fb932e;
-  --secondary-color-hover: #fb932e;
+  --secondary-color: #d0f9f4;
+  --secondary-color-hover: #d0f9f4;
   --secondary-color-disabled: #fff;
 
   --tertiary-color: #ffd700;
@@ -187,27 +187,27 @@ splitter {
   --indicador-color: rgba(225, 0, 255, 0.3);
   --backdrop-color: #ff2e6e;
   --backdrop-hover-color: #ff2e6e;
-  --backdrop-active-color: #fb932e;
+  --backdrop-active-color: #d0f9f4;
 
-  --hover-color: #fb932e;
+  --hover-color: #d0f9f4;
   --selection-color: #ff2e6e4a;
-  --active-color: #fb932e;
+  --active-color: #d0f9f4;
   --active-disabled-color: #d1caa7;
 
-  --accent-color: #fb932e;
-  --accent-color-hover: #fb932e;
+  --accent-color: #d0f9f4;
+  --accent-color-hover: #d0f9f4;
   --highlight-color: #9d00b3;
 
   --primary-background-hover: transparent;
-  --primary-backdrop-background: #0e0e17;
-  --secondary-background: #030305;
+  --primary-backdrop-background: #23262d;
+  --secondary-background: #050505;
   --secondary-background-hover: transparent;
 
   --yellow: #ffd700;
   --orange: #ffa500;
   --red: #ff2e6e;
   --green: #00ff00;
-  --cyan: #fb932e;
+  --cyan: #d0f9f4;
   --purple: #ff2e6e;
 
   --urlbarView-separator-color: var(--primary-color);
@@ -250,9 +250,9 @@ splitter {
   --newtab-background-color-secondary: var(--secondary-background);
   --panel-banner-item-background-color: transparent;
   --primary-backdrop-background: var(--primary-backdrop-background);
-  --primary-background: #0e0e17;
-  --primary-background-hover: #08080d;
-  --secondary-background: #030305;
+  --primary-background: #23262d;
+  --primary-background-hover: #1e1e24;
+  --secondary-background: #050505;
   --secondary-background-hover: #21243c;
   --short-notification-background: #0250bb;
   --sidebar-background-color: var(--secondary-background);
@@ -272,8 +272,8 @@ splitter {
   --urlbarView-result-button-hover-background-color: transparent;
   --urlbarView-result-button-selected-background-color: inherit;
   --zen-in-content-dialog-background: light-dark(#ebebeb, #202020);
-  --zen-main-browser-background: #0e0e17;
-  --zen-main-browser-background-toolbar: #0e0e17;
+  --zen-main-browser-background: #23262d;
+  --zen-main-browser-background-toolbar: #23262d;
   --zen-urlbar-background: var(--primary-background);
 
   --arrowpanel-border-radius: 0;
@@ -295,13 +295,13 @@ splitter {
 
 :root {
   &[lwtheme] {
-    --link-color: #2570d4;
+    --link-color: #5494fc;
     --tabs-navbar-separator-color: #ff2e6e;
-    --attention-dot-color: #2570d4;
-    --toolbox-bgcolor: #0e0e17;
-    --toolbox-bgcolor-inactive: #0e0e17;
+    --attention-dot-color: #5494fc;
+    --toolbox-bgcolor: #23262d;
+    --toolbox-bgcolor-inactive: #23262d;
     --toolbox-textcolor: #ff2e6e;
-    --toolbox-textcolor-inactive: #ffacac;
+    --toolbox-textcolor-inactive: #b5ccba;
   }
 }
 
@@ -330,10 +330,10 @@ html#main-window {
   --toolbar-field-focus-background-color: rgba(66, 65, 77, 1);
   --toolbar-field-focus-color: rgb(251, 251, 254);
   --toolbarbutton-icon-fill: rgb(251, 251, 254);
-  --newtab-background-color: #0e0e17;
+  --newtab-background-color: #23262d;
   --newtab-background-color-secondary: rgb(66, 65, 77);
   --newtab-text-primary-color: rgb(251, 251, 254);
-  --lwt-accent-color-inactive: #0e0e17 !important;
+  --lwt-accent-color-inactive: #23262d !important;
   --tab-selected-bgcolor: rgba(106, 106, 120, 0.699999988079071);
   --tab-selected-textcolor: rgb(255, 255, 255);
   --lwt-tab-line-color: rgba(0, 0, 0, 0);
@@ -351,11 +351,11 @@ html#main-window {
   --zen-main-browser-background-toolbar: var(--zen-themed-toolbar-bg);
   --chrome-content-separator-color: #ff2e6e !important;
   --input-border-color: #ff2e6e !important;
-  --toolbar-field-color: #ffacac !important;
-  --toolbar-field-background-color: #0e0e17 !important;
-  --input-bgcolor: #0e0e17 !important;
-  --input-color: #ffacac !important;
-  --toolbar-field-focus-background-color: #030305 !important;
+  --toolbar-field-color: #b5ccba !important;
+  --toolbar-field-background-color: #23262d !important;
+  --input-bgcolor: #23262d !important;
+  --input-color: #b5ccba !important;
+  --toolbar-field-focus-background-color: #050505 !important;
   --toolbar-field-focus-color: #ff2e6e !important;
   --toolbar-field-focus-border-color: #ff2e6e !important;
 }
@@ -363,7 +363,7 @@ html#main-window {
 body {
   font-family: 'Orbitron', monospace;
   --zen-border-radius: 0;
-  --lwt-accent-color-inactive: #0e0e17;
+  --lwt-accent-color-inactive: #23262d;
 }
 
 #browser,
@@ -420,7 +420,7 @@ body {
 }
 
 toolbarbutton {
-  --zen-toolbar-element-bg: #0e0e17;
+  --zen-toolbar-element-bg: #23262d;
 }
 toolbarbutton:hover {
   color: var(--secondary-color);
@@ -448,14 +448,14 @@ toolbarbutton:active {
 }
 
 #titlebar {
-  --zen-dialog-background: #0e0e17;
+  --zen-dialog-background: #23262d;
 }
 
 :root[zen-compact-mode='true']:not([customizing]):not([inDOMFullscreen='true']) {
   @media (-moz-bool-pref: 'zen.view.compact.hide-tabbar') or (-moz-bool-pref: 'zen.view.use-single-toolbar') {
     & #navigator-toolbox:not([animate='true']) #titlebar {
-      --zen-dialog-background: #0e0e17;
-      background: #0e0e17 !important;
+      --zen-dialog-background: #23262d;
+      background: #23262d !important;
 
       --zen-colors-border-contrast: #ff2e6e;
     }
@@ -482,13 +482,13 @@ toolbarbutton:active {
 
 #urlbar:not([breakout-extend='true']) {
   &:hover #urlbar-background {
-    background-color: #fb932e34 !important;
+    background-color: #d0f9f434 !important;
   }
 }
 
 .urlbarView-row {
   margin: 0 3px;
-  color: #2570d4 !important;
+  color: #5494fc !important;
   --urlbarView-highlight-color: #ff2e6e;
 
   .urlbarView-favicon {
@@ -497,7 +497,7 @@ toolbarbutton:active {
 
   &:hover {
     color: #ff2e6e;
-    background-color: #630c0cd6 !important;
+    background-color: #1b4e2ad6 !important;
 
     & .urlbarView-url,
     & .urlbarView-title,
@@ -508,15 +508,15 @@ toolbarbutton:active {
   }
 
   & [selected] {
-    --urlbarView-highlight-color: #fb932e;
-    color: #fb932e;
-    background-color: #630c0cd6 !important;
+    --urlbarView-highlight-color: #d0f9f4;
+    color: #d0f9f4;
+    background-color: #1b4e2ad6 !important;
 
     & .urlbarView-url,
     & .urlbarView-title,
     & .urlbarView-action,
     & .urlbarView-title-separator::before {
-      color: #fb932e !important;
+      color: #d0f9f4 !important;
     }
   }
 }
@@ -525,7 +525,7 @@ toolbarbutton:active {
   &[selected] {
     & *,
     & .urlbarView-title-separator::before {
-      color: #fb932e !important;
+      color: #d0f9f4 !important;
     }
   }
 }
@@ -794,7 +794,7 @@ toolbar {
 .findbar-textbox {
   &[status='notfound'] {
     background-color: #ff000034;
-    color: #ffacac !important;
+    color: #b5ccba !important;
   }
 }
 
@@ -822,15 +822,15 @@ toolbar {
 .menu-iconic-left,
 .checkbox-check {
   appearance: none !important;
-  background-color: #030305;
-  color: #2570d4;
-  border: 1px solid #ff3845;
+  background-color: #050505;
+  color: #5494fc;
+  border: 1px solid #24bd5c;
   display: inline-block;
 }
 
 .menu-iconic-left[checked='true'],
 .checkbox-check[checked='true'] {
-  background-color: #ff3845;
-  outline: 2px solid #030305;
+  background-color: #24bd5c;
+  outline: 2px solid #050505;
   outline-offset: -3px;
 }
