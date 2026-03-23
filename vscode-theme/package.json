@@ -1,0 +1,23 @@
+{
+  "name": "archon-grid-theme",
+  "displayName": "Archon Grid",
+  "description": "The Digital Grid: A focused, green-tinted theme inspired by the Archon demonic wardens.",
+  "publisher": "Archon",
+  "icon": "assets/icon.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Archon Grid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  }
+}
