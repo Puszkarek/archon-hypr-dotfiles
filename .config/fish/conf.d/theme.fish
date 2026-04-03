@@ -8,7 +8,7 @@ set -l selection 1b4e2a
 set -l teal 299a82
 set -l flamingo ff9fd6
 set -l mauve 9d72ff
-set -l pink ff6bcd
+set -l pink 9d72ff
 set -l red ff6b6b
 set -l peach f9c859
 set -l green 26be5e

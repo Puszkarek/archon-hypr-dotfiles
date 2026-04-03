@@ -30,12 +30,12 @@
 
   --red-selection-background: #c66e7334;
 
-  --primary-background: #23262d;
-  --primary-background-rgb: rgb(35 38 45);
-  --primary-hover-background: #1e1e24;
+  --primary-background: #23232d;
+  --primary-background-rgb: rgb(35 35 45);
+  --primary-hover-background: #21212b;
 
-  --secondary-background: #050505;
-  --secondary-hover-background: #0a0a0b;
+  --secondary-background: #1c1c24;
+  --secondary-hover-background: #18181e;
 
   /* For some TUI apps that does not support hex with alpha */
   --green-background: #1b4e2a;

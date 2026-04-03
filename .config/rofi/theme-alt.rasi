@@ -14,10 +14,10 @@ configuration {
 
 * {
   /* Color definitions from base theme */
-  background-color-main: #23262d;
+  background-color-main: #23232d;
   foreground-color-main: #5494fc;
   active-color:          #ffa96b;
-  selected-fg:           #23262d;
+  selected-fg:           #23232d;
   border-color-main:     #5494fc;
   
   /* Apply the colors */

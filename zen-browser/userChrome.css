@@ -134,7 +134,7 @@
   --theme-graphs-orange: light-dark(#d97e00, #d96629);
   --theme-graphs-grey: light-dark(#cccccc, #757873);
   --theme-graphs-full-red: #ff6b6b;
-  --theme-popup-background: #050505;
+  --theme-popup-background: #1c1c24;
   --theme-popup-color: #ff6b6b;
   --theme-popup-border-color: #ff6b6b;
   --theme-popup-dimmed: light-dark(hsla(0, 0%, 80%, 0.3), rgba(249, 249, 250, 0.1));
@@ -162,7 +162,7 @@
   --theme-search-results-color: var(--theme-contrast-color);
   --theme-search-results-border-color: var(--theme-contrast-border);
   --text-color-disabled: #b5ccba !important;
-  --toolbar-bgcolor: #23262d !important;
+  --toolbar-bgcolor: #23232d !important;
 }
 
 splitter {
@@ -199,8 +199,8 @@ splitter {
   --highlight-color: #9d00b3;
 
   --primary-background-hover: transparent;
-  --primary-backdrop-background: #23262d;
-  --secondary-background: #050505;
+  --primary-backdrop-background: #23232d;
+  --secondary-background: #1c1c24;
   --secondary-background-hover: transparent;
 
   --yellow: #ffd700;
@@ -250,9 +250,9 @@ splitter {
   --newtab-background-color-secondary: var(--secondary-background);
   --panel-banner-item-background-color: transparent;
   --primary-backdrop-background: var(--primary-backdrop-background);
-  --primary-background: #23262d;
-  --primary-background-hover: #1e1e24;
-  --secondary-background: #050505;
+  --primary-background: #23232d;
+  --primary-background-hover: #21212b;
+  --secondary-background: #1c1c24;
   --secondary-background-hover: #21243c;
   --short-notification-background: #0250bb;
   --sidebar-background-color: var(--secondary-background);
@@ -272,8 +272,8 @@ splitter {
   --urlbarView-result-button-hover-background-color: transparent;
   --urlbarView-result-button-selected-background-color: inherit;
   --zen-in-content-dialog-background: light-dark(#ebebeb, #202020);
-  --zen-main-browser-background: #23262d;
-  --zen-main-browser-background-toolbar: #23262d;
+  --zen-main-browser-background: #23232d;
+  --zen-main-browser-background-toolbar: #23232d;
   --zen-urlbar-background: var(--primary-background);
 
   --arrowpanel-border-radius: 0;
@@ -298,8 +298,8 @@ splitter {
     --link-color: #5494fc;
     --tabs-navbar-separator-color: #ff6b6b;
     --attention-dot-color: #5494fc;
-    --toolbox-bgcolor: #23262d;
-    --toolbox-bgcolor-inactive: #23262d;
+    --toolbox-bgcolor: #23232d;
+    --toolbox-bgcolor-inactive: #23232d;
     --toolbox-textcolor: #ff6b6b;
     --toolbox-textcolor-inactive: #b5ccba;
   }
@@ -330,10 +330,10 @@ html#main-window {
   --toolbar-field-focus-background-color: rgba(66, 65, 77, 1);
   --toolbar-field-focus-color: rgb(251, 251, 254);
   --toolbarbutton-icon-fill: rgb(251, 251, 254);
-  --newtab-background-color: #23262d;
+  --newtab-background-color: #23232d;
   --newtab-background-color-secondary: rgb(66, 65, 77);
   --newtab-text-primary-color: rgb(251, 251, 254);
-  --lwt-accent-color-inactive: #23262d !important;
+  --lwt-accent-color-inactive: #23232d !important;
   --tab-selected-bgcolor: rgba(106, 106, 120, 0.699999988079071);
   --tab-selected-textcolor: rgb(255, 255, 255);
   --lwt-tab-line-color: rgba(0, 0, 0, 0);
@@ -352,10 +352,10 @@ html#main-window {
   --chrome-content-separator-color: #ff6b6b !important;
   --input-border-color: #ff6b6b !important;
   --toolbar-field-color: #b5ccba !important;
-  --toolbar-field-background-color: #23262d !important;
-  --input-bgcolor: #23262d !important;
+  --toolbar-field-background-color: #23232d !important;
+  --input-bgcolor: #23232d !important;
   --input-color: #b5ccba !important;
-  --toolbar-field-focus-background-color: #050505 !important;
+  --toolbar-field-focus-background-color: #1c1c24 !important;
   --toolbar-field-focus-color: #ff6b6b !important;
   --toolbar-field-focus-border-color: #ff6b6b !important;
 }
@@ -363,7 +363,7 @@ html#main-window {
 body {
   font-family: 'Orbitron', monospace;
   --zen-border-radius: 0;
-  --lwt-accent-color-inactive: #23262d;
+  --lwt-accent-color-inactive: #23232d;
 }
 
 #browser,
@@ -420,7 +420,7 @@ body {
 }
 
 toolbarbutton {
-  --zen-toolbar-element-bg: #23262d;
+  --zen-toolbar-element-bg: #23232d;
 }
 toolbarbutton:hover {
   color: var(--secondary-color);
@@ -448,14 +448,14 @@ toolbarbutton:active {
 }
 
 #titlebar {
-  --zen-dialog-background: #23262d;
+  --zen-dialog-background: #23232d;
 }
 
 :root[zen-compact-mode='true']:not([customizing]):not([inDOMFullscreen='true']) {
   @media (-moz-bool-pref: 'zen.view.compact.hide-tabbar') or (-moz-bool-pref: 'zen.view.use-single-toolbar') {
     & #navigator-toolbox:not([animate='true']) #titlebar {
-      --zen-dialog-background: #23262d;
-      background: #23262d !important;
+      --zen-dialog-background: #23232d;
+      background: #23232d !important;
 
       --zen-colors-border-contrast: #ff6b6b;
     }
@@ -822,7 +822,7 @@ toolbar {
 .menu-iconic-left,
 .checkbox-check {
   appearance: none !important;
-  background-color: #050505;
+  background-color: #1c1c24;
   color: #5494fc;
   border: 1px solid #24bd5c;
   display: inline-block;
@@ -831,6 +831,6 @@ toolbar {
 .menu-iconic-left[checked='true'],
 .checkbox-check[checked='true'] {
   background-color: #24bd5c;
-  outline: 2px solid #050505;
+  outline: 2px solid #1c1c24;
   outline-offset: -3px;
 }

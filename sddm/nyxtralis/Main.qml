@@ -14,8 +14,8 @@ Rectangle {
     property color neonRed: "#24bd5c"
     property color neonBlue: "#5494fc"
     property color neonPink: "#ff6b6b"
-    property color popupBackground: "#23262d"
-    property color screenBackground: "#23262d"
+    property color popupBackground: "#23232d"
+    property color screenBackground: "#23232d"
     property color textColor: "#24bd5c"
 
     TextConstants { id: textConstants }

@@ -1,6 +1,6 @@
 :root.theme-dark {
-  --theme-tab-toolbar-background: #23262d !important;
-  --theme-toolbar-background: #23262d !important;
+  --theme-tab-toolbar-background: #23232d !important;
+  --theme-toolbar-background: #23232d !important;
   --theme-selection-color: #ffa96b !important;
   --theme-splitter-color: #24bd5c !important;
   --devtools-splitter-color: #24bd5c !important;
@@ -9,18 +9,18 @@
   --theme-comment: #b5ccba !important;
   --theme-icon-dimmed-color: #b5ccba !important;
 
-  --test-theme-body-background: #23262d !important;
-  --theme-body-background: #23262d !important;
-  --theme-sidebar-background: #23262d !important;
-  --theme-accordion-header-background: #23262d !important;
-  --theme-accordion-header-hover-background: #23262d !important;
+  --test-theme-body-background: #23232d !important;
+  --theme-body-background: #23232d !important;
+  --theme-sidebar-background: #23232d !important;
+  --theme-accordion-header-background: #23232d !important;
+  --theme-accordion-header-hover-background: #23232d !important;
 
   --badge-scrollable-color: #5494fc !important;
-  --badge-scrollable-background-color: #050505 !important;
-  --badge-scrollable-active-background-color: #050505 !important;
+  --badge-scrollable-background-color: #1c1c24 !important;
+  --badge-scrollable-active-background-color: #1c1c24 !important;
   --badge-scrollable-active-color: #ffa96b !important;
-  --toolbarbutton-background: #23262d !important;
-  --toolbarbutton-hover-background: #23262d !important;
+  --toolbarbutton-background: #23232d !important;
+  --toolbarbutton-hover-background: #23232d !important;
   /*   --badge-active-background-color: red;
   --badge-active-border-color: red;
   --badge-background-color: red;
@@ -58,14 +58,14 @@
 
   --theme-toolbar-selected-hover-color: #ffa96b !important;
   --theme-toolbar-selected-color: #ffa96b !important;
-  --theme-toolbar-selected-background: #23262d !important;
-  --theme-toolbar-selected-hover: #23262d !important;
+  --theme-toolbar-selected-background: #23232d !important;
+  --theme-toolbar-selected-hover: #23232d !important;
 
   --table-selection-background-hover: #ffa96b34 !important;
-  --theme-selection-background: #23262d !important;
+  --theme-selection-background: #23232d !important;
   --theme-focus-outline-color: #5494fc !important;
-  --theme-toolbar-hover: #23262d !important;
-  --theme-toolbar-active: #23262d !important;
+  --theme-toolbar-hover: #23232d !important;
+  --theme-toolbar-active: #23232d !important;
 
   --theme-highlight-blue: #5494fc !important;
   --theme-highlight-purple: #9d72ff !important;
@@ -79,17 +79,17 @@
 
   --console-error-color: #9d72ff;
   --console-error-border: #24bd5c;
-  --console-error-background: #050505;
+  --console-error-background: #1c1c24;
   --theme-icon-error-color: #9d72ff;
 
   --console-warning-color: #f9c859;
   --console-warning-border: #f9c859;
-  --console-warning-background: #050505;
+  --console-warning-background: #1c1c24;
   --theme-icon-warning-color: #f9c859;
 
-  --row-striped-background: #050505 !important;
+  --row-striped-background: #1c1c24 !important;
 
-  scrollbar-color: #5494fc #050505 !important;
+  scrollbar-color: #5494fc #1c1c24 !important;
 
   .message {
     padding: 4px;
@@ -97,7 +97,7 @@
   }
 
   .message-repeats {
-    background-color: #23262d !important;
+    background-color: #23232d !important;
     color: black !important;
   }
 
@@ -114,7 +114,7 @@
   }
 
   .panel-container {
-    background: #23262d !important;
+    background: #23232d !important;
     border-radius: 0 !important;
   }
 
@@ -132,7 +132,7 @@
   }
 
   .theme-body {
-    background: #23262d !important;
+    background: #23232d !important;
   }
 
   .devtools-tab,
@@ -172,7 +172,7 @@
   }
 
   .splitview-nav > li.splitview-active {
-    background-color: #23262d !important;
+    background-color: #23232d !important;
   }
 
   .devtools-container,
@@ -206,7 +206,7 @@
   }
 
   .devtools-togglebutton[aria-pressed='true'] {
-    background-color: #23262d !important;
+    background-color: #23232d !important;
     color: #24bd5c !important;
   }
 
@@ -243,11 +243,11 @@
   }
 
   .theme-selected {
-    background-color: #23262d !important;
+    background-color: #23232d !important;
   }
 
   .ruleview-highlight {
-    background-color: #050505 !important;
+    background-color: #1c1c24 !important;
   }
 
   .devtools-tabbar-button.checked {
@@ -272,7 +272,7 @@
   }
 
   .checkbox-container.menu-standard-padding {
-    background: #23262d !important;
+    background: #23232d !important;
     border-radius: 0 !important;
   }
   /* 
@@ -301,7 +301,7 @@
 
 input[type='checkbox'] {
   appearance: none;
-  background-color: #050505;
+  background-color: #1c1c24;
   color: #5494fc;
   width: 1.25rem;
   height: 1.25rem;
@@ -310,7 +310,7 @@ input[type='checkbox'] {
 
 input[type='checkbox']:checked {
   background-color: #24bd5c;
-  outline: 2px solid #050505;
+  outline: 2px solid #1c1c24;
   outline-offset: -3px;
 }
 

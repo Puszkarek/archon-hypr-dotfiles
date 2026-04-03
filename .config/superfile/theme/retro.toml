@@ -18,11 +18,11 @@ footer_border_active = "#ffa96b"
 modal_border_active = "#ffa96b"
 
 # background (bg)
-full_screen_bg = "#23262d"
-file_panel_bg = "#23262d"
-sidebar_bg = "#23262d"
-footer_bg = "#23262d"
-modal_bg = "#050505"
+full_screen_bg = "#23232d"
+file_panel_bg = "#23232d"
+sidebar_bg = "#23232d"
+footer_bg = "#23232d"
+modal_bg = "#1c1c24"
 
 # foreground (fg)
 full_screen_fg = "#24bd5c"
@@ -43,19 +43,19 @@ gradient_color = ["#24bd5c", "#24bd5c"]
 file_panel_top_directory_icon = "#24bd5c"
 file_panel_top_path = "#24bd5c"
 file_panel_item_selected_fg = "#ffa96b"
-file_panel_item_selected_bg = "#23262d"
+file_panel_item_selected_bg = "#23232d"
 
 # sidebar special items
 sidebar_title = "#24bd5c"
 sidebar_item_selected_fg = "#ffa96b"
-sidebar_item_selected_bg = "#23262d"
+sidebar_item_selected_bg = "#23232d"
 sidebar_divider = "#24bd5c"
 
 # modal special items
-modal_cancel_fg = "#23262d"
+modal_cancel_fg = "#23232d"
 modal_cancel_bg = "#ff6b6b"
 
-modal_confirm_fg = "#23262d"
+modal_confirm_fg = "#23232d"
 modal_confirm_bg = "#24bd5c"
 
 # help menu

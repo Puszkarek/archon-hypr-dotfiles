@@ -6,7 +6,7 @@
   color: #24bd5c !important;
   border-color: #24bd5c !important;
   outline-color: #24bd5c !important;
-  background-color: #23262d !important;
+  background-color: #23232d !important;
   box-shadow: none !important;
   box-shadow: none !important;
   background-image: none !important;
@@ -27,7 +27,7 @@ i {
   border-color: #ffa96b !important;
   outline-color: #ffa96b !important;
   background-image: inherit !important;
-  background-color: #23262d !important;
+  background-color: #23232d !important;
 }
 
 [data-test='sidebar'] {
@@ -56,7 +56,7 @@ i {
   width: 16px;
   height: 16px;
 
-  background: #23262d;
+  background: #23232d;
   outline: 1px solid #24bd5c;
   color: #24bd5c;
   border-radius: 0;
@@ -87,13 +87,13 @@ i {
 
 .enable-scrollbar-styles ::-webkit-scrollbar-thumb {
   background: #24bd5c;
-  outline: 1px solid #23262d;
+  outline: 1px solid #23232d;
   border-radius: 0px;
 }
 
 .enable-scrollbar-styles ::-webkit-scrollbar-corner,
 .enable-scrollbar-styles ::-webkit-scrollbar-track {
-  background: #23262d;
+  background: #23232d;
 }
 
 #footerPlayer {

@@ -4,8 +4,8 @@ font_color = "#24bd5c"
 main_foreground_color = "#24bd5c"
 secondary_foreground_color = "#24bd5c"
 
-main_background_color = "#23262d"
-secondary_background_color = "#23262d"
+main_background_color = "#23232d"
+secondary_background_color = "#23232d"
 
 [others]
 selection_highlight_color = "#ffa96b"
@@ -14,8 +14,8 @@ environment_variable_highlight_color = "#5494fc"
 [methods]
 GET = "#1b4e2a"
 POST = "#1e1e25"
-PUT = "#1e1e24"
-PATCH = "#0a0a0b"
+PUT = "#21212b"
+PATCH = "#18181e"
 DELETE = "#893034"
 HEAD = "#1b4e2a"
 OPTIONS = "#1e1e25"

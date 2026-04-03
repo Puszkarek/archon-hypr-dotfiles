@@ -1,7 +1,7 @@
 global:
-  backgroundColor: '#23262d'
-  contrastBackgroundColor: '#23262d'
-  moreContrastBackgroundColor: '#23262d'
+  backgroundColor: '#23232d'
+  contrastBackgroundColor: '#23232d'
+  moreContrastBackgroundColor: '#23232d'
   textColor: '#24bd5c'
   secondaryTextColor: '#24bd5c'
   borderColor: '#24bd5c'
@@ -11,36 +11,36 @@ global:
 welcome:
   formLabelColor: '#24bd5c'
   formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#050505'
+  formInputBackgroundColor: '#1c1c24'
 connection:
   formLabelColor: '#24bd5c'
   formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#050505'
+  formInputBackgroundColor: '#1c1c24'
   listTextColor: '#24bd5c'
   listSelectedTextColor: '#ffa96b'
-  listSelectedBackgroundColor: '#23262d'
-  listSecondaryTextColor: '#23262d'
+  listSelectedBackgroundColor: '#23232d'
+  listSecondaryTextColor: '#23232d'
   listSecondaryBackgroundColor: '#24bd5c'
 header:
   keyColor: '#24bd5c'
-  valueColor: '#23262d'
+  valueColor: '#23232d'
   activeSymbol: ●
   inactiveSymbol: ○
 tabBar:
   activeTextColor: '#24bd5c'
-  activeBackgroundColor: '#23262d'
+  activeBackgroundColor: '#23232d'
 databases:
   nodeTextColor: '#24bd5c'
   leafTextColor: '#24bd5c'
-  nodeSymbolColor: '#23262d'
-  leafSymbolColor: '#23262d'
+  nodeSymbolColor: '#23232d'
+  leafSymbolColor: '#23232d'
   openNodeSymbol: ' '
   closedNodeSymbol: ' '
   leafSymbol: ' '
 content:
   statusTextColor: '#24bd5c'
   headerRowColor: '#24bd5c'
-  columnKeyColor: '#23262d'
+  columnKeyColor: '#23232d'
   columnTypeColor: '#24bd5c'
   cellTextColor: '#24bd5c'
   selectedRowColor: '#ffa96b'
@@ -53,22 +53,22 @@ inputBar:
   labelColor: '#24bd5c'
   inputColor: '#b5ccba'
   autocomplete:
-    backgroundColor: '#050505'
+    backgroundColor: '#1c1c24'
     textColor: '#24bd5c'
-    activeBackgroundColor: '#23262d'
+    activeBackgroundColor: '#23232d'
     activeTextColor: '#ffa96b'
     secondaryTextColor: '#b5ccba'
 history:
   textColor: '#24bd5c'
   selectedTextColor: '#ffa96b'
-  selectedBackgroundColor: '#23262d'
+  selectedBackgroundColor: '#23232d'
 help:
   headerColor: '#24bd5c'
   keyColor: '#24bd5c'
   descriptionColor: '#b5ccba'
 others:
   buttonsTextColor: '#24bd5c'
-  buttonsBackgroundColor: '#23262d'
+  buttonsBackgroundColor: '#23232d'
   deleteButtonSelectedBackgroundColor: '#DA3312'
   modalTextColor: '#24bd5c'
   modalSecondaryTextColor: '#24bd5c'
@@ -77,8 +77,8 @@ others:
 styleChange:
   textColor: '#24bd5c'
   selectedTextColor: '#0F172A'
-  selectedBackgroundColor: '#23262d'
+  selectedBackgroundColor: '#23232d'
 aiPrompt:
   formLabelColor: '#24bd5c'
   formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#050505'
+  formInputBackgroundColor: '#1c1c24'

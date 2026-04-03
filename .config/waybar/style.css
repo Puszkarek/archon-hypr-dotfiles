@@ -14,7 +14,7 @@ window#waybar {
 }
 
 tooltip {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #ffa96b;
 }
 
@@ -35,7 +35,7 @@ tooltip label {
 }
 
 #workspaces button {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #24bd5c;
   padding: 0 12px;
   margin-right: 6px;
@@ -50,7 +50,7 @@ tooltip label {
   border-color: #24bd5c;
 }
 #workspaces button.active * {
-  color: #23262d;
+  color: #23232d;
 }
 
 #workspaces > .special {
@@ -58,7 +58,7 @@ tooltip label {
   border-color: #5494fc;
 }
 #workspaces button.special * {
-  color: #23262d;
+  color: #23232d;
 }
 
 #workspaces > .urgent {
@@ -66,7 +66,7 @@ tooltip label {
   border-color: #ff6b6b;
 }
 #workspaces button.urgent * {
-  color: #23262d;
+  color: #23232d;
 }
 
 #workspaces button:hover {
@@ -81,14 +81,14 @@ tooltip label {
 }
 
 #clock {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #24bd5c;
   color: #24bd5c;
   margin-left: 6px;
 }
 
 #tray {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #24bd5c;
 }
 
@@ -99,7 +99,7 @@ tooltip label {
 #tray,
 #custom-cava,
 #temperature {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #24bd5c;
   margin-left: 6px;
   color: #24bd5c;
@@ -115,11 +115,11 @@ tooltip label {
 #memory.critical {
   background-color: #ff6b6b;
   border: 1px solid #ff6b6b;
-  color: #23262d;
+  color: #23232d;
 }
 
 #battery.charging {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #5494fc;
   color: #5494fc;
 }
@@ -135,13 +135,13 @@ tooltip label {
 
 #custom-lyrics.no-song,
 #custom-lyrics.no-lyrics {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #ff6b6b;
   color: #ff6b6b;
 }
 
 #custom-lyrics.has-song {
-  background-color: #23262d;
+  background-color: #23232d;
   border: 1px solid #24bd5c;
 }
 

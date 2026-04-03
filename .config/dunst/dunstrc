@@ -341,7 +341,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#23262d"
+    background = "#23232d"
     foreground = "#ffa96b"
     frame_color = "#ffa96b"
     timeout = 10
@@ -349,7 +349,7 @@
     # default_icon = dialog-information
 
 [urgency_normal]
-    background = "#23262d"
+    background = "#23232d"
     foreground = "#5494fc"
     frame_color = "#5494fc"
     timeout = 10
