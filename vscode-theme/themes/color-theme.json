@@ -248,7 +248,12 @@
         "source.css entity.other.attribute-name.class",
         "source.scss entity.other.attribute-name.class",
         "meta.selector.scss entity.other.attribute-name.class",
-        "meta.selector.sass entity.other.attribute-name.class"
+        "meta.selector.sass entity.other.attribute-name.class",
+        "meta.selector.css entity.other.attribute-name.class",
+        "meta.property-list.css entity.other.attribute-name.class",
+        "meta.property-list.css entity.other.attribute-name.css",
+        "meta.property-list.css meta.selector.css entity.other.attribute-name.class",
+        "source.css meta.property-list.css entity.other.attribute-name.css"
       ],
       "settings": {
         "foreground": "#f9c859" 
