@@ -1,7 +1,7 @@
 # Catppuccin color palette
 
 # --> special
-set -l foreground e0e3e4
+set -l foreground aee29e
 set -l selection 1b4e2a
 
 # --> palette
@@ -14,7 +14,7 @@ set -l peach f9c859
 set -l green 26be5e
 set -l yellow f9c859
 set -l blue 5494fc
-set -l gray bec8cc
+set -l gray aee29e
 set -l completion ffa96b
 
 # Syntax Highlighting

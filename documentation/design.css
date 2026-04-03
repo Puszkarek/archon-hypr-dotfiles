@@ -1,6 +1,6 @@
 :root {
-  --text-color: #e0e3e4;
-  --text-color: #bec8cc;
+  --non-valid-text-color: #e0e3e4;
+  --text-color: #aee29e;
 
   --primary-color: #24bd5c;
   --primary-color-rgb: rgb(36 189 92);
@@ -44,4 +44,66 @@
   --magenta-background: #1e1e25;
   --blue-background: #0a0a0b;
   --cyan-background: #1e1e24;
+/* Colors derived from color-theme.json */
+  --theme-transparent-00000000: #00000000; /* Used for: wordHighlightBorder, outline */
+  --theme-embeddededitorbackground-00000050: #00000050; /* Used for: embeddedEditorBackground */
+  --theme-editorbracketmatch-background-0064001a: #1b4e2a1a; /* Mapped to dark green background */
+  --theme-border-007acc: #5494fc; /* Mapped to soft blue */
+  --theme-addedresourceforeground-00fff785: #36d6c385; /* Mapped to soft cyan */
+  --theme-transparent-0a0e0a00: #0a0a0b00; /* Mapped to secondary hover background */
+  --theme-modifiedbackground-0c7d9d: #299a82; /* Mapped to deep teal */
+  --theme-checkbox-background-1116117d: #1b4e2a7d; /* Mapped to dark green background */
+  --theme-commoncontentbackground-121a127c: #1b4e2a7c; /* Mapped to dark green background */
+  --theme-findrangehighlightbackground-121a12be: #1b4e2abe; /* Mapped to dark green background */
+  --theme-secondaryhoverbackground-121a12c1: #1b4e2ac1; /* Mapped to dark green background */
+  --theme-infohighlight-1ed2ff: #5494fc; /* Mapped to soft blue */
+  --theme-transparent-25252500: #23262d00; /* Mapped to primary background */
+  --theme-incomingcontentbackground-3399ff33: #5494fc33; /* Mapped to soft blue */
+  --theme-transparent-33ff0000: #24bd5c00; /* Mapped to primary green */
+  --theme-errorhoverbackground-33ff0034: #24bd5c34; /* Mapped to primary green */
+  --theme-scrollbarslider-background-33ff0038: #24bd5c38; /* Mapped to primary green */
+  --theme-selectionhighlightbackground-33ff004a: #24bd5c4a; /* Mapped to primary green */
+  --theme-findmatchborder-33ff0055: #24bd5c55; /* Mapped to primary green */
+  --theme-selectionhighlight-33ff0070: #24bd5c70; /* Mapped to primary green */
+  --theme-ignoredresourceforeground-33ff0075: #24bd5c75; /* Mapped to primary green */
+  --theme-wordhighlightstrongbackground-341a49d7: #7a58c2d7; /* Mapped to a softer, less saturated dark magenta */
+  --theme-editorinfo-foreground-3aa2ff: #5494fc; /* Mapped to soft blue */
+  --theme-editorsuggestwidgetstatus-foreground-3fb3ff: #5494fc; /* Mapped to soft blue */
+  --theme-editorinfo-background-4490bf00: #5494fc00; /* Mapped to soft blue */
+  --theme-pickergroup-foreground-455aff: #5494fc; /* Mapped to soft blue */
+  --theme-activeforeground-4ea1e6: #5494fc; /* Mapped to soft blue */
+  --theme-currentcontentbackground-5191677c: #299a827c; /* Mapped to deep teal */
+  --theme-addedbackground-587c0c: #299a82; /* Mapped to deep teal */
+  --theme-editorruler-foreground-5a5a5a: #aee29e; /* Mapped to inactive text color */
+  --theme-settings-foreground-71ffff: #36d6c3; /* Mapped to soft cyan */
+  --theme-editormarkernavigationinfo-background-75beff: #5494fc; /* Mapped to soft blue */
+  --theme-removedforeground-7821217c: #8930347c; /* Mapped to red background */
+  --theme-border-7f7f7f4d: #aee29e4d; /* Mapped to inactive text color */
+  --theme-incomingheaderbackground-8db9e290: #5494fc90; /* Mapped to soft blue */
+  --theme-insertedtextbackground-9bb95533: #b8f23833; /* Mapped to soft lime */
+  --theme-editorwarning-background-a9904000: #f9c85900; /* Mapped to soft yellow */
+  --theme-removedtextbackground-b088ff33: #9d72ff33; /* Mapped to soft magenta */
+  --theme-currentheaderbackground-b0ffbe90: #b5ccba90; /* Mapped to inactive primary color */
+  --theme-editorerror-background-b73a3400: #ff6b6b00; /* Mapped to soft red */
+  --theme-deletedbackground-c74e39: #ff6b6b; /* Mapped to soft red */
+  --theme-notificationswarningicon-foreground-cca700: #f9c859; /* Mapped to soft yellow */
+  --theme-nomatchesoutline-d73737: #ff6b6b; /* Mapped to soft red */
+  --theme-matchhighlightbackground-ea5c004d: #ffa96b4d; /* Mapped to accent orange */
+  --theme-findmatchbackground-ea5c0055: #ffa96b55; /* Mapped to accent orange */
+  --theme-matchhighlightborder-ee931e: #ffa96b; /* Mapped to accent orange */
+  --theme-settings-foreground-f44747: #ff6b6b; /* Mapped to soft red */
+  --theme-notificationserroricon-foreground-f48771: #ff6b6b; /* Mapped to soft red */
+  --theme-shadow-ff000000: #ff6b6b00; /* Mapped to soft red transparent */
+  --theme-deletedbackground-ff1414: #ff6b6b; /* Mapped to soft red */
+  --theme-stagedeletedresourceforeground-ff2e6e85: #ff9fd685; /* Mapped to soft pink */
+  --theme-errorhighlight-ff5855: #ff6b6b; /* Mapped to soft red */
+  --theme-editorerror-foreground-ff7255: #ff6b6b; /* Mapped to soft red */
+  --theme-hoverforeground-ff8042: #ffa96b; /* Mapped to accent orange */
+  --theme-matchhighlightbackground-ff8f0099: #ffa96b99; /* Mapped to accent orange */
+  --theme-selectionoccurrencehighlight-ff9c557c: #ffa96b7c; /* Mapped to accent orange */
+  --theme-dropbetweenbackground-ffae002c: #f9c8592c; /* Mapped to soft yellow */
+  --theme-dropbackground-ffb0002c: #f9c8592c; /* Mapped to soft yellow */
+  --theme-editorwarning-foreground-ffd61e: #f9c859; /* Mapped to soft yellow */
+  --theme-transparent-ffffff00: #aee29e00; /* Mapped to text color transparent */
+  --theme-focusedrowbackground-ffffff07: #aee29e07; /* Mapped to text color */
 }

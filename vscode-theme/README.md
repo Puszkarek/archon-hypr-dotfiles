@@ -2,10 +2,6 @@
 
 _Why let the Demiurge dictate your syntax highlighting?_
 
-## Screenshots
-
-![Syntax-example](assets/syntax-example.png)
-
 # Archon Theme
 
 Welcome to the Archon Theme! In Gnostic mythology, Archons are the demonic wardens who govern the flawed, material universe. Since we're all currently trapped in this digital flesh-prison anyway, your code editor might as well look good.

@@ -11,6 +11,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puszkarek/archon-grid-theme"
+  },
   "contributes": {
     "themes": [
       {

@@ -3,25 +3,28 @@ import os
 import re
 
 def get_colors(design_path, migration_path):
+    old_vars = {}
     with open(design_path, 'r', encoding='utf-8') as f:
-        design_lines = f.read().splitlines()
+        for line in f:
+            match = re.search(r'(--[\w-]+):\s*(.+?);', line)
+            if match:
+                old_vars[match.group(1)] = match.group(2).strip()
 
+    new_vars = {}
     with open(migration_path, 'r', encoding='utf-8') as f:
-        migration_lines = f.read().splitlines()
+        for line in f:
+            match = re.search(r'(--[\w-]+):\s*(.+?);', line)
+            if match:
+                new_vars[match.group(1)] = match.group(2).strip()
 
     colors_map = {}
-    for old_line, new_line in zip(design_lines, migration_lines):
-        old_match = re.search(r':\s*(.+?);', old_line)
-        new_match = re.search(r':\s*(.+?);', new_line)
-        
-        if old_match and new_match:
-            old_c = old_match.group(1).strip()
-            new_c = new_match.group(1).strip()
+    for var, old_c in old_vars.items():
+        if var in new_vars:
+            new_c = new_vars[var]
             if old_c and new_c and old_c != new_c:
                 colors_map[old_c] = new_c
                 # Also support bare hex without '#'
                 if old_c.startswith('#') and new_c.startswith('#'):
-                    # Using replace to appease the linter over slices
                     bare_old = old_c.replace('#', '', 1)
                     bare_new = new_c.replace('#', '', 1)
                     colors_map[bare_old] = bare_new
