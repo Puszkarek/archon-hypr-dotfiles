@@ -106,4 +106,5 @@
   --theme-editorwarning-foreground-ffd61e: #f9c859; /* Mapped to soft yellow */
   --theme-transparent-ffffff00: #aee29e00; /* Mapped to text color transparent */
   --theme-focusedrowbackground-ffffff07: #aee29e07; /* Mapped to text color */
+  --theme-diagonalfill-24bd5c33: #24bd5c33; /* Mapped to primary green transparent */
 }

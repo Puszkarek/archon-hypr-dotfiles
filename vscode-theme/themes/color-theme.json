@@ -704,6 +704,6 @@
     "diffEditorOverview.removedForeground": "#8930347c",
     "diffEditor.insertedLineBackground": "#299a827c",
     "diffEditorOverview.insertedForeground": "#299a827c",
-    "diffEditor.diagonalFill": "#24bd5c"
+    "diffEditor.diagonalFill": "#24bd5c33"
   }
 }
