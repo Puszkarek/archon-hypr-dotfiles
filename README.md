@@ -93,9 +93,19 @@
    ```
    sudo cp -r sddm/* /usr/share/sddm/themes/
    ```
-   - Go to the `/usr/lib/sddm/sddm.conf.d/default.conf` file
-     - Add `Current=nyxtralis` under `[Theme]`
-     - Add `Session=hyprland.desktop` under `[Autologin]`
+   - Run the following commands to create the config directory and set the theme:
+   ```bash
+   sudo mkdir -p /etc/sddm.conf.d
+   printf "[Theme]\nCurrent=nyxtralis\n" | sudo tee /etc/sddm.conf.d/nyxtralis.conf
+   ```
+   - (Optional) If you want to enable autologin, run this command as well:
+   ```bash
+   printf "\n[Autologin]\nUser=$USER\nSession=hyprland.desktop\n" | sudo tee -a /etc/sddm.conf.d/nyxtralis.conf
+   ```
+   - Don't forget to enable the SDDM service so it runs on boot:
+   ```bash
+   sudo systemctl enable sddm
+   ```
 
 #### VS Code
 
