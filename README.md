@@ -63,6 +63,10 @@
    ```
    sudo pacman -S ranger lsd unzip wl-clipboard grim cowsaw fortune-mod sl noto-fonts-cjk
    ```
+1. Install aur helper
+   ```
+   yay -S dunst 
+   ```
 1. Run post-install script
    ```
    curl -L https://get.oh-my.fish | fish
@@ -107,10 +111,6 @@
    sudo systemctl enable sddm
    ```
 
-#### VS Code
-
-1. Right now it does not fully support gtk themes, so the dialogs inside vscode will look different, for a temporary fix I'm using `window.dialogStyle: custom` in the settings.json file.
-
 ### Screenshots
 
 ![Screenshot](./screenshots/00.png)
@@ -128,6 +128,5 @@
 ### TODOs
 
 - [ ] Create icons theme
-- [ ] Add gnome missing theme
 - [ ] Create script to automate the install
 - [ ] Add conky on the desktop
