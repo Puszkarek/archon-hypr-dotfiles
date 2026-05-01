@@ -361,7 +361,7 @@ html#main-window {
 }
 
 body {
-  font-family: 'Orbitron', monospace;
+  font-family: 'Space Grotesk', sans-serif;
   --zen-border-radius: 0;
   --lwt-accent-color-inactive: #23232d;
 }

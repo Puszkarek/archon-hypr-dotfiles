@@ -21,7 +21,7 @@ set $menu "rofi -combi-modi window,drun,ssh,run -show combi -d focused"
 seat seat0 xcursor_theme "Breeze_Hacked" 24
 
 
-font pango:ShareTechMono Medium 11
+font pango:Space Mono 11
 
 ### Output configuration
 #

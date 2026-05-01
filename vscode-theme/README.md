@@ -22,7 +22,7 @@ Because this theme is a rogue artifact operating outside the official VS Code Ma
 
 ## Recommended Font
 
-- [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)
+- [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 
 ## The Path to Gnosis
 

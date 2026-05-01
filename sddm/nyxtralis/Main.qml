@@ -67,7 +67,7 @@ Rectangle {
                 font.pixelSize: 16
                 model: sessionModel
                 index: sessionModel.lastIndex
-                font.family: "Orbitron"
+                font.family: "Space Grotesk"
 
                 color: 'transparent'
                 textColor: neonRed
@@ -115,7 +115,7 @@ Rectangle {
                     width: parent.width
                     text: "BLACKWALL ACCESS"
                     font.pixelSize: 24
-                    font.family: "Orbitron"
+                    font.family: "Space Grotesk"
                     font.bold: true
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignHCenter
@@ -131,7 +131,7 @@ Rectangle {
                         text: textConstants.userName
                         font.bold: true
                         font.pixelSize: 16
-                        font.family: "Orbitron"
+                        font.family: "Space Grotesk"
 
                         color: neonRed
                     }
@@ -141,7 +141,7 @@ Rectangle {
                         width: parent.width; height: 36
                         text: userModel.lastUser
                         font.pixelSize: 16
-                        font.family: "Orbitron"
+                        font.family: "Space Grotesk"
                         color: 'transparent'
 
                         borderColor: neonRed
@@ -169,7 +169,7 @@ Rectangle {
                         text: textConstants.password
                         font.bold: true
                         font.pixelSize: 16
-                        font.family: "Orbitron"
+                        font.family: "Space Grotesk"
 
                         color: neonRed
                     }
@@ -178,7 +178,7 @@ Rectangle {
                         id: password
                         width: parent.width; height: 36
                         font.pixelSize: 16
-                        font.family: "Orbitron"
+                        font.family: "Space Grotesk"
 
                         color: 'transparent'
                         borderColor: neonRed
@@ -204,7 +204,7 @@ Rectangle {
                     text: textConstants.login
                     width: parent.width
                     font.pixelSize: 16
-                    font.family: "Orbitron"
+                    font.family: "Space Grotesk"
                     font.bold: true
 
                     color: neonRed

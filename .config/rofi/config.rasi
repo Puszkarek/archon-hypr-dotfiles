@@ -1,5 +1,5 @@
 configuration {
-font: "Orbitron 12";
+font: "Space Grotesk 12";
 display-combi: "search";
 /*	modes: "window,drun,run,ssh";*/
 /*	location: 0;*/

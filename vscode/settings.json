@@ -11,10 +11,10 @@
   "editor.linkedEditing": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.suggest.insertMode": "replace",
-  "editor.fontFamily": "Share Tech Mono",
-  "terminal.integrated.fontFamily": "Share Tech Mono",
-  "editor.codeLensFontFamily": "Share Tech Mono",
-  "chat.editor.fontFamily": "Share Tech Mono",
+  "editor.fontFamily": "Space Mono",
+  "terminal.integrated.fontFamily": "Space Mono",
+  "editor.codeLensFontFamily": "Space Mono",
+  "chat.editor.fontFamily": "Space Mono",
   "editor.fontSize": 18,
   "editor.lineHeight": 1.6,
   "editor.renderLineHighlight": "gutter",
@@ -190,5 +190,5 @@
   "window.menuBarVisibility": "compact",
   "workbench.colorTheme": "Midnight Retro",
   "workbench.statusBar.visible": false,
-  "markdown.preview.fontFamily": "Share Tech Mono"
+  "markdown.preview.fontFamily": "Space Mono"
 }

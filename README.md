@@ -21,7 +21,7 @@
 | **Music Player**           |                             [cmus](https://github.com/cmus/cmus)                              |
 | **Music Stream**           |                                  [Tidal](https://tidal.com/)                                  |
 | **Music Lyric Visualizer** |                           [bard](https://github.com/Puszkarek/bard)                           |
-| **Font**                   |             [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)              |
+| **Font**                   |             [Space Mono](https://fonts.google.com/specimen/Space+Mono), [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)              |
 | **Cursor**                 |           [Breeze Hacker](https://github.com/clayrisser/breeze-hacked-cursor-theme)           |
 
 ### Themes
@@ -86,7 +86,7 @@
 
 1. Copy fonts to `~/.fonts`
    ```
-   sudo cp -r fonts/.fonts/* /usr/share/fonts/ && cp -R fonts/fontconfig/* ~/.config/fontconfig/
+   sudo cp -r fonts/.fonts/* /usr/share/fonts/ && mkdir -p ~/.config/fontconfig && cp -r fonts/fontconfig/* ~/.config/fontconfig/
    ```
 1. Copy `zen-browser` files
    ```

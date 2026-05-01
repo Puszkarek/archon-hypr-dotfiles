@@ -8,7 +8,7 @@ configuration {
   display-window: "Windows: ";
   drun-display-format: "{name}";
   modi: "window,run,drun";
-  font: "Orbitron Bold 14";
+  font: "Space Grotesk Bold 14";
   show-icons: false;
 }
 
