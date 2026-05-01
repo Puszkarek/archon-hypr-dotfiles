@@ -1,20 +1,19 @@
-# Catppuccin color palette
 
 # --> special
-set -l foreground aee29e
+set -l foreground 24bd5c
 set -l selection 1b4e2a
 
 # --> palette
 set -l teal 299a82
-set -l flamingo ff9fd6
+set -l flamingo aee29e
 set -l mauve 9d72ff
-set -l pink 9d72ff
+set -l pink ff6bcd
 set -l red ff6b6b
 set -l peach f9c859
 set -l green 26be5e
 set -l yellow f9c859
 set -l blue 5494fc
-set -l gray aee29e
+set -l gray b5ccba
 set -l completion ffa96b
 
 # Syntax Highlighting

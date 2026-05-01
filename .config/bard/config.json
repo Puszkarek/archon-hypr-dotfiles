@@ -1,8 +1,10 @@
 {
   "tidal_token": "",
-  "lyrics_folder": "/home/puszkarek/lyrics",
+  "lyrics_folder": "/home/asmodeus/incantations",
   "colors": {
     "default_fg": "red",
     "focused_fg": "yellow"
-  }
+  },
+  "allowed_players": null,
+  "ignore_players": null
 }

@@ -1,84 +1,84 @@
 global:
-  backgroundColor: '#23232d'
-  contrastBackgroundColor: '#23232d'
-  moreContrastBackgroundColor: '#23232d'
-  textColor: '#24bd5c'
-  secondaryTextColor: '#24bd5c'
-  borderColor: '#24bd5c'
-  focusColor: '#ffa96b'
-  titleColor: '#24bd5c'
-  graphicsColor: '#24bd5c'
+  backgroundColor: "#23232d"
+  contrastBackgroundColor: "#23232d"
+  moreContrastBackgroundColor: "#23232d"
+  textColor: "#24bd5c"
+  secondaryTextColor: "#24bd5c"
+  borderColor: "#24bd5c"
+  focusColor: "#ffa96b"
+  titleColor: "#24bd5c"
+  graphicsColor: "#24bd5c"
 welcome:
-  formLabelColor: '#24bd5c'
-  formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#1c1c24'
+  formLabelColor: "#24bd5c"
+  formInputColor: "#24bd5c"
+  formInputBackgroundColor: "#0a0a0b"
 connection:
-  formLabelColor: '#24bd5c'
-  formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#1c1c24'
-  listTextColor: '#24bd5c'
-  listSelectedTextColor: '#ffa96b'
-  listSelectedBackgroundColor: '#23232d'
-  listSecondaryTextColor: '#23232d'
-  listSecondaryBackgroundColor: '#24bd5c'
+  formLabelColor: "#24bd5c"
+  formInputColor: "#24bd5c"
+  formInputBackgroundColor: "#0a0a0b"
+  listTextColor: "#24bd5c"
+  listSelectedTextColor: "#ffa96b"
+  listSelectedBackgroundColor: "#23232d"
+  listSecondaryTextColor: "#23232d"
+  listSecondaryBackgroundColor: "#24bd5c"
 header:
-  keyColor: '#24bd5c'
-  valueColor: '#23232d'
+  keyColor: "#24bd5c"
+  valueColor: "#23232d"
   activeSymbol: ●
   inactiveSymbol: ○
 tabBar:
-  activeTextColor: '#24bd5c'
-  activeBackgroundColor: '#23232d'
+  activeTextColor: "#24bd5c"
+  activeBackgroundColor: "#23232d"
 databases:
-  nodeTextColor: '#24bd5c'
-  leafTextColor: '#24bd5c'
-  nodeSymbolColor: '#23232d'
-  leafSymbolColor: '#23232d'
-  openNodeSymbol: ' '
-  closedNodeSymbol: ' '
-  leafSymbol: ' '
+  nodeTextColor: "#24bd5c"
+  leafTextColor: "#24bd5c"
+  nodeSymbolColor: "#23232d"
+  leafSymbolColor: "#23232d"
+  openNodeSymbol: " "
+  closedNodeSymbol: " "
+  leafSymbol: " "
 content:
-  statusTextColor: '#24bd5c'
-  headerRowColor: '#24bd5c'
-  columnKeyColor: '#23232d'
-  columnTypeColor: '#24bd5c'
-  cellTextColor: '#24bd5c'
-  selectedRowColor: '#ffa96b'
+  statusTextColor: "#24bd5c"
+  headerRowColor: "#24bd5c"
+  columnKeyColor: "#23232d"
+  columnTypeColor: "#24bd5c"
+  cellTextColor: "#24bd5c"
+  selectedRowColor: "#ffa96b"
 docPeeker:
-  keyColor: '#24bd5c'
-  valueColor: '#24bd5c'
-  bracketColor: '#24bd5c'
-  highlightColor: '#ffa96b'
+  keyColor: "#24bd5c"
+  valueColor: "#24bd5c"
+  bracketColor: "#24bd5c"
+  highlightColor: "#ffa96b"
 inputBar:
-  labelColor: '#24bd5c'
-  inputColor: '#b5ccba'
+  labelColor: "#24bd5c"
+  inputColor: "#b5ccba"
   autocomplete:
-    backgroundColor: '#1c1c24'
-    textColor: '#24bd5c'
-    activeBackgroundColor: '#23232d'
-    activeTextColor: '#ffa96b'
-    secondaryTextColor: '#b5ccba'
+    backgroundColor: "#050505"
+    textColor: "#24bd5c"
+    activeBackgroundColor: "#23232d"
+    activeTextColor: "#ffa96b"
+    secondaryTextColor: "#b5ccba"
 history:
-  textColor: '#24bd5c'
-  selectedTextColor: '#ffa96b'
-  selectedBackgroundColor: '#23232d'
+  textColor: "#24bd5c"
+  selectedTextColor: "#ffa96b"
+  selectedBackgroundColor: "#23232d"
 help:
-  headerColor: '#24bd5c'
-  keyColor: '#24bd5c'
-  descriptionColor: '#b5ccba'
+  headerColor: "#24bd5c"
+  keyColor: "#24bd5c"
+  descriptionColor: "#b5ccba"
 others:
-  buttonsTextColor: '#24bd5c'
-  buttonsBackgroundColor: '#23232d'
-  deleteButtonSelectedBackgroundColor: '#DA3312'
-  modalTextColor: '#24bd5c'
-  modalSecondaryTextColor: '#24bd5c'
-  separatorSymbol: '|'
-  separatorColor: '#334155'
+  buttonsTextColor: "#24bd5c"
+  buttonsBackgroundColor: "#23232d"
+  deleteButtonSelectedBackgroundColor: "#ff6b6b"
+  modalTextColor: "#24bd5c"
+  modalSecondaryTextColor: "#24bd5c"
+  separatorSymbol: "|"
+  separatorColor: "#1c1c24"
 styleChange:
-  textColor: '#24bd5c'
-  selectedTextColor: '#0F172A'
-  selectedBackgroundColor: '#23232d'
+  textColor: "#24bd5c"
+  selectedTextColor: "#0a0a0b"
+  selectedBackgroundColor: "#23232d"
 aiPrompt:
-  formLabelColor: '#24bd5c'
-  formInputColor: '#24bd5c'
-  formInputBackgroundColor: '#1c1c24'
+  formLabelColor: "#24bd5c"
+  formInputColor: "#24bd5c"
+  formInputBackgroundColor: "#0a0a0b"
