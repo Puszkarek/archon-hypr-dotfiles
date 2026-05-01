@@ -20,7 +20,7 @@ display-combi: "search";
 /*	drun-match-fields: "name,generic,exec,categories,keywords";*/
 /*	drun-categories: ;*/
 /*	drun-show-actions: false;*/
-/*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
+	drun-display-format: "{name} <span alpha='50%'>({generic})</span>";
 /*	drun-url-launcher: "xdg-open";*/
 /*	disable-history: false;*/
 /*	ignored-prefixes: "";*/
@@ -34,7 +34,7 @@ display-combi: "search";
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-	combi-modes: "window,run";
+	combi-modes: "window,drun,run";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
@@ -42,11 +42,11 @@ display-combi: "search";
 /*	dpi: -1;*/
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
-/*	window-format: "{w}    {c}   {t}";*/
+	window-format: "<span alpha='50%'>{w} {c}</span> {t}";
 /*	click-to-exit: true;*/
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
-/*	combi-display-format: "{mode} {text}";*/
+	combi-display-format: "<span color='#5494fc'>{mode}</span> {text}";
 /*	matching-negate-char: '-' /* unsupported */;*/
 /*	cache-dir: ;*/
 /*	window-thumbnail: false;*/
