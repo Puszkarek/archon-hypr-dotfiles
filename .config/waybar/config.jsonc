@@ -3,16 +3,16 @@
     "output": "DP-3",
     "layer": "top",
     "spacing": 0,
-    "height": 0,
+    "height": 32,
 
-    "margin-top": 1,
-    "margin-right": 5,
+    "margin-top": 0,
+    "margin-right": 0,
     "margin-bottom": 0,
-    "margin-left": 5,
+    "margin-left": 0,
 
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/cava"],
-    "modules-right": ["clock", "tray"],
+    "modules-center": ["custom/marquee"],
+    "modules-right": ["custom/cava", "clock", "tray"],
 
     "custom/cava": {
       "exec": "cava -p /dev/stdin <<EOF | sed -u 's/;//g;s/0/▁/g;s/1/▂/g;s/2/▃/g;s/3/▄/g;s/4/▅/g;s/5/▆/g;s/6/▇/g;s/7/█/g;'\n[general]\nbars = 25\n[output]\nmethod = raw\nraw_target = /dev/stdout\ndata_format = ascii\nascii_max_range = 7\nEOF",
@@ -30,21 +30,35 @@
       "all-outputs": false,
       "tooltip": false,
     },
+    "custom/marquee": {
+      "format": "CYBER_OS_v1.0 <span color='#24bd5c' alpha='70%'>/// SYS_STATUS: OPTIMAL /// NO ANOMALIES DETECTED ///</span>",
+      "interval": 0,
+    },
   },
   {
     "output": "eDP-1",
     "layer": "top",
     "spacing": 0,
-    "height": 0,
+    "height": 32,
 
-    "margin-top": 1,
+    "margin-top": 0,
     "margin-right": 5,
     "margin-bottom": 0,
     "margin-left": 5,
 
-    "modules-left": ["hyprland/workspaces", "custom/lyrics"],
+    "modules-left": ["hyprland/workspaces", "custom/sep", "custom/lyrics"],
     "modules-center": [],
-    "modules-right": ["cpu", "memory", "network", "temperature", "battery"],
+    "modules-right": [
+      "network",
+      "custom/sep",
+      "cpu",
+      "custom/sep",
+      "memory",
+      "custom/sep",
+      "temperature",
+      "custom/sep",
+      "battery",
+    ],
 
     "hyprland/workspaces": {
       "all-outputs": false,
@@ -55,41 +69,46 @@
         "critical": 20,
         "warning": 40,
       },
+      "format": "󰁹 {capacity}%",
+      "format-charging": "󰂄 {capacity}%",
+      "format-plugged": "󰂄 {capacity}%",
     },
     "network": {
-      "format-wifi": "{bandwidthDownBits}",
-      "format-ethernet": "{bandwidthDownBits}",
-      "format-disconnected": "no network",
+      "format-wifi": "󰖩 {bandwidthDownBits}",
+      "format-ethernet": "󰈀 {bandwidthDownBits}",
+      "format-disconnected": "󰖪  OFF",
       "interval": 5,
       "tooltip": true,
     },
     "cpu": {
-      "format": "{usage}% CPU",
+      "format": "󰍛 {usage}% CPU",
       "tooltip": true,
       "interval": 2,
-
       "states": {
         "critical": 90,
       },
     },
     "memory": {
-      "format": "{percentage}% M",
+      "format": "󰘚  {percentage}% M",
       "tooltip": true,
       "interval": 2,
-
       "states": {
         "critical": 80,
       },
     },
     "temperature": {
       "critical-threshold": 80,
-      "format": "{temperatureC}°C",
+      "format": "󱃃 {temperatureC}°C",
     },
     "custom/lyrics": {
       "exec": "waybar-bard",
-      "format": "{} <span font='11' fgalpha='50%' style='italic'>{alt}</span>",
+      "format": "{} <span fgalpha='50%' style='italic'>{alt}</span>",
       "return-type": "json",
       "tooltip": true,
+    },
+    "custom/sep": {
+      "format": "|",
+      "tooltip": false,
     },
   },
 ]

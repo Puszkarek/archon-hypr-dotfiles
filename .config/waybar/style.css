@@ -2,154 +2,96 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: 'Orbitron';
-  font-weight: 500;
-  font-size: 1rem;
-  background: none;
-  padding: 0;
+  font-family: 'Space Mono';
+
+  font-weight: 800;
+  font-size: 14px;
 }
 
 window#waybar {
-  background: none;
-}
-
-tooltip {
   background-color: #23232d;
-  border: 1px solid #ffa96b;
-}
+  border-left: 2px solid #24bd5c;
+  border-right: 2px solid #24bd5c;
+  border-bottom: 2px solid #24bd5c;
 
-tooltip label {
-  color: #ffa96b;
-}
-
-#clock,
-#custom-lyrics,
-#tray,
-#cpu,
-#memory,
-#battery,
-#network,
-#custom-cava,
-#temperature {
-  padding: 6px 12px;
-}
-
-#workspaces button {
-  background-color: #23232d;
-  border: 1px solid #24bd5c;
-  padding: 0 12px;
-  margin-right: 6px;
-}
-
-#workspaces button * {
   color: #24bd5c;
 }
 
-#workspaces > .active {
-  background-color: #24bd5c;
-  border-color: #24bd5c;
-}
-#workspaces button.active * {
-  color: #23232d;
+#workspaces button {
+  padding: 0 4px;
+  color: #24bd5c;
+  transition: all 0.1s ease-in-out;
 }
 
-#workspaces > .special {
-  background-color: #5494fc;
-  border-color: #5494fc;
-}
-#workspaces button.special * {
-  color: #23232d;
-}
-
-#workspaces > .urgent {
-  background-color: #ff6b6b;
-  border-color: #ff6b6b;
-}
-#workspaces button.urgent * {
-  color: #23232d;
+#workspaces button.active {
+  color: #ffa96b;
 }
 
 #workspaces button:hover {
   box-shadow: none; /* Remove predefined box-shadow */
   text-shadow: none; /* Remove predefined text-shadow */
-  background: none; /* Remove predefined background color (white) */
-  transition: none; /* Disable predefined animations */
+
+  background: rgba(36, 189, 92, 0.1); /* Explicitly set the background */
+  transition: none;
 }
 
-#workspaces button:hover * {
+#custom-marquee {
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 2px;
   color: #24bd5c;
-}
-
-#clock {
-  background-color: #23232d;
-  border: 1px solid #24bd5c;
-  color: #24bd5c;
-  margin-left: 6px;
-}
-
-#tray {
-  background-color: #23232d;
-  border: 1px solid #24bd5c;
+  padding: 0 20px;
 }
 
 #cpu,
 #memory,
 #network,
+#temperature,
 #battery,
-#tray,
-#custom-cava,
-#temperature {
-  background-color: #23232d;
-  border: 1px solid #24bd5c;
-  margin-left: 6px;
+#custom-sep {
+  
+  padding: 0 4px;
+  font-size: 12px;
   color: #24bd5c;
 }
 
-#battery.warning {
-  border: 1px solid #ffa96b;
-  color: #ffa96b;
+
+#custom-sep {
+  opacity: 0.3;
+  font-weight: normal;
 }
 
-#battery.critical,
-#cpu.critical,
-#memory.critical {
-  background-color: #ff6b6b;
-  border: 1px solid #ff6b6b;
-  color: #23232d;
-}
-
-#battery.charging {
-  background-color: #23232d;
-  border: 1px solid #5494fc;
-  color: #5494fc;
-}
-
-#custom-lyrics {
-  margin-left: 6px;
-  color: #24bd5c;
-}
-
-#custom-lyrics:hover {
-  color: #ffa96b;
-}
-
-#custom-lyrics.no-song,
-#custom-lyrics.no-lyrics {
-  background-color: #23232d;
-  border: 1px solid #ff6b6b;
+#battery.critical {
   color: #ff6b6b;
 }
 
-#custom-lyrics.has-song {
-  background-color: #23232d;
+#battery.warning {
+  color: #ffa96b;
+}
+
+#battery.charging {
+  color: #5494fc;
+}
+
+#workspaces {
+  margin: 0 0 0 8px;
+}
+
+#battery {
+  margin: 0 8px 0 0;
+}
+
+#custom-lyrics {
+  font-family: "Space Grotesk";
+
+  margin-left: 4px;
+}
+
+tooltip {
+  background: #23232d;
   border: 1px solid #24bd5c;
 }
 
-#custom-lyrics .next-line {
-  color: #b5ccba;
-  font-style: italic;
-}
-
-#custom-cava {
-  letter-spacing: 10px;
+tooltip label {
+  color: #24bd5c;
 }
