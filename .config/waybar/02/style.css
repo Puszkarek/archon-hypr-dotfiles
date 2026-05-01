@@ -1,0 +1,158 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "Share Tech Mono";
+  font-weight: 500;
+  font-size: 12px;
+  background: none;
+  padding: 0;
+}
+
+window#waybar {
+  background-color: #1c1c24;
+  color: #24bd5c;
+}
+
+tooltip {
+  background-color: #23232d;
+  border: 1px solid #ffa96b;
+}
+
+tooltip label {
+  color: #ffa96b;
+}
+
+#clock,
+#custom-lyrics,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#custom-cava,
+#temperature {
+  padding: 1px 8px;
+}
+
+#workspaces button {
+  background-color: #1c1c24;
+  border: 1px solid #24bd5c;
+  padding: 1px 4px;
+  margin-right: 5px;
+}
+
+#workspaces button * {
+  color: #24bd5c;
+}
+
+#workspaces > .active {
+  background-color: #24bd5c;
+  border-color: #24bd5c;
+  box-shadow: 0 0 8px #24bd5c;
+}
+#workspaces button.active * {
+  color: #23232d;
+}
+
+#workspaces > .special {
+  background-color: #5494fc;
+  border-color: #5494fc;
+}
+#workspaces button.special * {
+  color: #23232d;
+}
+
+#workspaces > .urgent {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+}
+#workspaces button.urgent * {
+  color: #23232d;
+}
+
+#workspaces button:hover {
+  box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background-color: #24bd5c; /* Remove predefined background color (white) */
+  transition: none; /* Disable predefined animations */
+  border-color: #24bd5c;
+}
+
+#workspaces button:hover * {
+  color: #24bd5c;
+}
+
+#clock {
+  background-color: #1c1c24;
+  border: 1px solid #24bd5c;
+  color: #24bd5c;
+  margin-left: 5px;
+}
+
+#tray {
+  background-color: #1c1c24;
+  border: 1px solid #24bd5c;
+}
+
+#cpu,
+#memory,
+#network,
+#battery,
+#tray,
+#custom-cava,
+#temperature {
+  background-color: #1c1c24;
+  border: 1px solid #24bd5c;
+  margin-left: 5px;
+  color: #24bd5c;
+}
+
+#battery.warning {
+  border: 1px solid #ffa96b;
+  color: #ffa96b;
+}
+
+#battery.critical,
+#cpu.critical,
+#memory.critical {
+  background-color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  color: #23232d;
+}
+
+#battery.charging {
+  background-color: #1c1c24;
+  border: 1px solid #5494fc;
+  color: #5494fc;
+}
+
+#custom-lyrics {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #24bd5c;
+}
+
+#custom-lyrics:hover {
+  color: #ffa96b;
+}
+
+#custom-lyrics.no-song,
+#custom-lyrics.no-lyrics {
+  background-color: #23232d;
+  border: 1px solid #ff6b6b;
+  color: #ff6b6b;
+}
+
+#custom-lyrics.has-song {
+  background-color: #1c1c24;
+  border: 1px solid #1c1c24;
+}
+
+#custom-lyrics .next-line {
+  color: #24bd5c;
+}
+
+#custom-cava {
+  letter-spacing: 10px;
+}
