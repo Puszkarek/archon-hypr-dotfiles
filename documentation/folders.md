@@ -32,6 +32,7 @@ The primary development directory for writing code, containing the logic and str
 ### Other Directories
 
 - **`~/incantations/`** — Dedicated directory for writing lyrics, songs, and verses.
+- **`~/grimoire/revelations/`** — Screen recordings, clips, and visual captures.
 
 ## 4. Browser Bookmarks (GitHub & Workflow)
 
