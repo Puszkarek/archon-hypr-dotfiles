@@ -65,6 +65,7 @@ See [setup.md](./documentation/setup.md) for detailed setup and file installatio
 
 ### TODOs
 
+- [ ] gtk themes not working
 - [ ] Create icons theme
 - [ ] Create script to automate the install
 - [ ] Add conky on the desktop

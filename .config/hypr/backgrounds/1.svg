@@ -1,0 +1,38 @@
+<svg viewBox="0 0 2560 1600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<!--Background covering the full canvas-->
+  <rect width="2560" height="1600" fill="#1c1c24"/>
+<!--Group shifted to center the 800x800 content-->
+  <g transform="translate(880, 400)">
+    <!-- Gap widened to x=180 and x=620 for maximum breathing room -->
+    <path d="M 180 120 L 80 120 L 80 680 L 720 680 L 720 120 L 620 120" fill="#23232d" stroke="#24bd5c" stroke-width="2" stroke-linejoin="miter"/>
+    
+    <text x="400" y="128" fill="#24bd5c" font-family="'Space Mono', monospace" font-size="24" font-weight="bold" text-anchor="middle" letter-spacing="2">
+      SIGIL_X: PERPETUAL MACHINE
+    </text>
+
+    <g font-family="'Space Mono', monospace" font-size="18" letter-spacing="0.5">
+      <text x="120" y="200" fill="#24bd5cb3">
+        &gt; evoke --tally --sacrifices
+      </text>
+      <text x="120" y="235" fill="#24bd5c">
+        <tspan font-weight="bold">VITAL_ESSENCE:</tspan> 09% (DRAINING)
+      </text>
+      <text x="120" y="270" fill="#24bd5cb3">
+        &gt; TIME_UNTIL_ASCENSION: 24H
+      </text>
+      <text x="120" y="305" fill="#24bd5cb3">
+        NO DREAMS LEFT / ONLY THE GRIND
+      </text>
+      <text x="120" y="340" fill="#24bd5cb3">
+        <tspan fill="#24bd5c" font-weight="bold">[CURSE]</tspan> DIRTY ANGELS DEBT: c[OVERFLOW]
+      </text>
+      <text x="120" y="375" fill="#24bd5cb3">
+        REC: <tspan fill="#24bd5c" font-weight="bold">OFFER DAILY GRIND &amp; DEBTS TO THE GEARS</tspan>
+      </text>
+      <text x="120" y="410" fill="#24bd5c" font-weight="bold">
+        &gt;
+      </text>
+      <rect x="140" y="392" width="12" height="20" fill="#24bd5c"/>
+    </g>
+  </g>
+</svg>
