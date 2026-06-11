@@ -20,6 +20,7 @@
 | **Icons**                  |                                             TODO                                              |
 | **Music Player**           |                             [cmus](https://github.com/cmus/cmus)                              |
 | **Music Stream**           |                                  [Tidal](https://tidal.com/)                                  |
+| **Music TUI**              |                                [tuifi](https://git.sr.ht/~matf/tuifi)                            |
 | **Music Lyric Visualizer** |                           [bard](https://github.com/Puszkarek/bard)                           |
 | **Font**                   |             [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)              |
 | **Cursor**                 |           [Breeze Hacker](https://github.com/clayrisser/breeze-hacked-cursor-theme)           |
@@ -65,7 +66,6 @@ See [setup.md](./documentation/setup.md) for detailed setup and file installatio
 
 ### TODOs
 
-- [ ] gtk themes not working
 - [ ] Create icons theme
 - [ ] Create script to automate the install
 - [ ] Add conky on the desktop

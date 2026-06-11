@@ -15,3 +15,23 @@ cp -r .config/fish ~/.config/
 ```bash
 cp -r .config/waybar ~/.config/
 ```
+
+### Hyprland
+
+```bash
+cp -r .config/hypr ~/.config/
+```
+
+#### Vim/VSCode Cheatsheet
+
+```bash
+cp -r .config/vim_vscode_cheatsheet.txt ~/.config/
+```
+
+### GTK Styles
+
+```bash
+mkdir -p ~/.config/gtk-3.0 ~/.config/gtk-4.0
+cp -r .config/gtk-3.0/* ~/.config/gtk-3.0/
+cp -r .config/gtk-4.0/* ~/.config/gtk-4.0/
+```

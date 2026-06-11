@@ -1,3 +1,5 @@
+@import "thunar.css";
+
 @define-color accent_color #24BD5C;
 @define-color accent_fg_color #091f11;
 @define-color accent_bg_color #24BD5C;
@@ -16,6 +18,18 @@
 @define-color sidebar_border_color @window_bg_color;
 @define-color sidebar_backdrop_color @window_bg_color;
 @define-color theme_selected_bg_color alpha(@accent_color, 0.15);
-@define-color theme_selected_fg_color @primary;
+@define-color theme_selected_fg_color @window_fg_color;
 
-@import "thunar.css";
+/* Standard GTK variables mapped to your custom colors for wider compatibility */
+@define-color theme_bg_color @window_bg_color;
+@define-color theme_fg_color @window_fg_color;
+@define-color theme_base_color @view_bg_color;
+@define-color theme_text_color @view_fg_color;
+@define-color insensitive_bg_color @window_bg_color;
+@define-color insensitive_fg_color alpha(@window_fg_color, 0.5);
+@define-color insensitive_base_color @view_bg_color;
+@define-color borders @headerbar_bg_color;
+@define-color unfocused_borders @headerbar_bg_color;
+@define-color warning_color #f2a900;
+@define-color error_color #cc0000;
+@define-color success_color #24BD5C;
