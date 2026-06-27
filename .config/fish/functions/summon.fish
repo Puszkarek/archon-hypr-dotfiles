@@ -1,17 +1,36 @@
 function summon --description 'Command one of the 72 bound entities of the grimoire to reveal its source'
-    set -l editors windsurf antigravity cursor code
+    set -l editors windsurf antigravity antigravity-ide cursor code
     set -l selected_editor
+
+    # Function to expand editor abbreviations
+    function _expand_editor_abbrev
+        set -l editor $argv[1]
+        switch $editor
+            case 'ws'
+                echo 'windsurf'
+            case 'ag'
+                echo 'antigravity'
+            case 'agi'
+                echo 'antigravity-ide'
+            case 'cur'
+                echo 'cursor'
+            case 'vs'
+                echo 'code'
+            case '*'
+                echo $editor
+        end
+    end
 
     # Parse arguments
     set -l project_name
     for arg in $argv
         switch $arg
             case '-e' '--editor'
-                set selected_editor $argv[(math (contains -i -- $arg $argv) + 1)]
+                set selected_editor (_expand_editor_abbrev $argv[(math (contains -i -- $arg $argv) + 1)])
             case '-*'
                 echo "Unknown option: $arg"
                 echo "Usage: g <project-name> [-e|--editor <editor>]"
-                echo "Editors: windsurf, antigravity, cursor, code"
+                echo "Editors: windsurf(ws), antigravity(ag), antigravity-ide(agi), cursor(cur), code(vs)"
                 return 1
             case '*'
                 if test -z "$project_name"
@@ -22,7 +41,7 @@ function summon --description 'Command one of the 72 bound entities of the grimo
 
     if test -z "$project_name"
         echo "Usage: g <project-name> [-e|--editor <editor>]"
-        echo "Editors: windsurf, antigravity, cursor, code"
+        echo "Editors: windsurf(ws), antigravity(ag), antigravity-ide(agi), cursor(cur), code(vs)"
         return 1
     end
 
@@ -37,7 +56,7 @@ function summon --description 'Command one of the 72 bound entities of the grimo
     if test -n "$selected_editor"
         if not contains $selected_editor $editors
             echo "Error: Unknown editor '$selected_editor'"
-            echo "Valid editors: windsurf, antigravity, cursor, code"
+            echo "Valid editors: windsurf(ws), antigravity(ag), antigravity-ide(agi), cursor(cur), code(vs)"
             return 1
         end
         $selected_editor "$project_path"
@@ -52,6 +71,6 @@ function summon --description 'Command one of the 72 bound entities of the grimo
         end
     end
 
-    echo "Error: No supported editor found (windsurf, antigravity, cursor, code)"
+    echo "Error: No supported editor found (windsurf, antigravity, antigravity-ide, cursor, code)"
     return 1
 end
