@@ -39,7 +39,7 @@
    - (Optional) If you want to enable autologin, run this command as well:
 
    ```bash
-   printf "\n[Autologin]\nUser=$USER\nSession=hyprland.desktop\n" | sudo tee -a /etc/sddm.conf.d/nyxtralis.conf
+   printf "\n[Autologin]\nUser=$USER\nSession=niri-session.desktop\n" | sudo tee -a /etc/sddm.conf.d/nyxtralis.conf
    ```
 
    - Don't forget to enable the SDDM service so it runs on boot:

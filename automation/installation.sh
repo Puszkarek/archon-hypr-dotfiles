@@ -25,7 +25,7 @@ fi
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
     fish fastfetch cowsay fortune-mod noto-fonts-cjk \
-    ranger lsd unzip wl-clipboard grim sl rofi alacritty waybar dunst cava cliphist
+    ranger lsd unzip wl-clipboard grim sl rofi alacritty waybar dunst cava cliphist swaybg
 
 # Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="

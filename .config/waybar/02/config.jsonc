@@ -10,7 +10,7 @@
     "margin-bottom": 0,
     "margin-left": 5,
 
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["niri/workspaces"],
     "modules-center": ["custom/cava"],
     "modules-right": ["clock", "tray"],
 
@@ -26,7 +26,7 @@
       "spacing": 10,
       "tooltip": false,
     },
-    "hyprland/workspaces": {
+    "niri/workspaces": {
       "all-outputs": false,
       "tooltip": false,
     },
@@ -42,11 +42,11 @@
     "margin-bottom": 0,
     "margin-left": 5,
 
-    "modules-left": ["hyprland/workspaces", "custom/lyrics"],
+    "modules-left": ["niri/workspaces", "custom/lyrics"],
     "modules-center": [],
     "modules-right": ["network", "cpu", "memory", "temperature", "battery"],
 
-    "hyprland/workspaces": {
+    "niri/workspaces": {
       "all-outputs": false,
       "tooltip": false,
     },

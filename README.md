@@ -1,5 +1,5 @@
 <h2 align="center">
- <b style="font-size:24px;line-height:24px;vertical-align:middle; color: #24bd5c;"><i>Cyberpunk 2077 - hyprland-dotfiles</i></b>
+ <b style="font-size:24px;line-height:24px;vertical-align:middle; color: #24bd5c;"><i>Cyberpunk 2077 - niri-dotfiles</i></b>
 </h2>
 
 ![Screenshot](./screenshots/01.png)
@@ -9,7 +9,7 @@
 | Purpose                    |                                             Tool                                              |
 | -------------------------- | :-------------------------------------------------------------------------------------------: |
 | **Login Manager**          |                             [sddm](https://github.com/sddm/sddm)                              |
-| **Window Manager**         |                               [Hyprland](https://hyprland.org/)                               |
+| **Window Manager**         |                               [Niri](https://github.com/YaLTeR/niri)                               |
 | **WayBar**                 |                          [waybar](https://github.com/Alexays/Waybar)                          |
 | **Application Launcher**   |                             [Rofi](https://github.com/lbonn/rofi)                             |
 | **Notification Daemon**    |                        [dunst](https://github.com/dunst-project/dunst)                        |

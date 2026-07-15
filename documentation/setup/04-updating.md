@@ -16,10 +16,10 @@ cp -r .config/fish ~/.config/
 cp -r .config/waybar ~/.config/
 ```
 
-### Hyprland
+### Niri
 
 ```bash
-cp -r .config/hypr ~/.config/
+cp -r .config/niri ~/.config/
 ```
 
 #### Vim/VSCode Cheatsheet
