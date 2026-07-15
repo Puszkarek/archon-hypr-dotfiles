@@ -24,12 +24,13 @@ fi
 # Step 2: Install all pacman dependencies
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
-    fish fastfetch cowsay fortune-mod noto-fonts-cjk
+    fish fastfetch cowsay fortune-mod noto-fonts-cjk \
+    ranger lsd unzip wl-clipboard grim sl rofi alacritty waybar dunst cava
 
-# Step 3: Install all yay (AUR) dependencies
+# Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="
 yay -S --noconfirm \
-    zen-browser-bin slack-desktop devin-desktop antigravity-ide tidal-hifi-bin
+    zen-browser-bin slack-desktop devin-desktop antigravity-ide tidal-hifi-bin xwayland-satellite
 
 # Step 4: Install Oh-My-Fish (Fish shell framework)
 echo "=== Installing Oh-My-Fish ==="

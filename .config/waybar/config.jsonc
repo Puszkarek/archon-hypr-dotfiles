@@ -10,7 +10,7 @@
     "margin-bottom": 0,
     "margin-left": 0,
 
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["niri/workspaces"],
     "modules-center": ["custom/marquee"],
     "modules-right": ["custom/cava", "clock", "tray"],
 
@@ -26,7 +26,7 @@
       "spacing": 10,
       "tooltip": false,
     },
-    "hyprland/workspaces": {
+    "niri/workspaces": {
       "all-outputs": false,
       "tooltip": false,
     },
@@ -46,7 +46,7 @@
     "margin-bottom": 0,
     "margin-left": 5,
 
-    "modules-left": ["hyprland/workspaces", "custom/sep", "custom/lyrics"],
+    "modules-left": ["niri/workspaces", "custom/sep", "custom/lyrics"],
     "modules-center": [],
     "modules-right": [
       "network",
@@ -60,7 +60,7 @@
       "battery",
     ],
 
-    "hyprland/workspaces": {
+    "niri/workspaces": {
       "all-outputs": false,
       "tooltip": false,
     },
