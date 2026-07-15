@@ -1,48 +1,35 @@
-/*
-* GTK Colors
-* Generated with Matugen
-*/
+@import "thunar.css";
 
-/* via thairanaru on GitHub: */
+@define-color accent_color #24BD5C;
+@define-color accent_fg_color #091f11;
+@define-color accent_bg_color #24BD5C;
+@define-color window_bg_color #23262D;
+@define-color window_fg_color #F5F5F6;
+@define-color headerbar_bg_color #1E1E24;
+@define-color headerbar_fg_color #F5F5F6;
+@define-color popover_bg_color #1E1E24;
+@define-color popover_fg_color #F5F5F6;
+@define-color view_bg_color #050505;
+@define-color view_fg_color #F5F5F6;
+@define-color card_bg_color #050505;
+@define-color card_fg_color #F5F5F6;
+@define-color sidebar_bg_color @window_bg_color;
+@define-color sidebar_fg_color @window_fg_color;
+@define-color sidebar_border_color @window_bg_color;
+@define-color sidebar_backdrop_color @window_bg_color;
+@define-color theme_selected_bg_color alpha(@accent_color, 0.15);
+@define-color theme_selected_fg_color @window_fg_color;
 
-/* Destructive colors are basically error colors */
-@define-color destructive_bg_color #ff3366;
-@define-color destructive_fg_color #601410;
-/* Follow material spec */
-@define-color error_bg_color #ff3366;
-@define-color error_fg_color #601410;
-/* Follow material spec (also I think looks nicer) */
-@define-color accent_fg_color #000000;
-@define-color accent_bg_color #ff6600;
-/* Use surface instead of background */
-@define-color window_bg_color #0a0a15;
-@define-color window_fg_color #e6f0ff;
-/* Make it more similar to Adwaita */
-@define-color view_bg_color #0a0a15;
-@define-color view_fg_color #e6f0ff;
-@define-color headerbar_bg_color #0a0a15;
-@define-color headerbar_fg_color #e6f0ff;
-@define-color sidebar_bg_color #0a0a15;
-@define-color sidebar_fg_color #e6f0ff;
-/* There is only like one application I know that uses this, and there isn't a good way to get
-a color between surface and surface container so I think just giving this surface is a good enough fallback*/
-@define-color secondary_sidebar_bg_color #0a0a15;
-@define-color secondary_sidebar_fg_color #e6f0ff;
-@define-color card_bg_color #0a0a15;
-@define-color card_fg_color #e6f0ff;
-@define-color overview_bg_color #0a0a15;
-@define-color overview_fg_color #e6f0ff;
-@define-color popover_bg_color #0a0a15;
-@define-color popover_fg_color #e6f0ff;
-@define-color dialog_bg_color #0a0a15;
-@define-color dialog_fg_color #e6f0ff;
-
-/* Backdrop/unfocused states - prevents white flash on window unfocus */
-@define-color headerbar_backdrop_color @window_bg_color;
-@define-color sidebar_backdrop_color @sidebar_bg_color;
-@define-color theme_unfocused_fg_color @window_fg_color;
-@define-color theme_unfocused_text_color @view_fg_color;
-@define-color theme_unfocused_bg_color @window_bg_color;
-@define-color theme_unfocused_base_color @window_bg_color;
-@define-color theme_unfocused_selected_bg_color @accent_bg_color;
-@define-color theme_unfocused_selected_fg_color @accent_fg_color;
+/* Standard GTK variables mapped to your custom colors for wider compatibility */
+@define-color theme_bg_color @window_bg_color;
+@define-color theme_fg_color @window_fg_color;
+@define-color theme_base_color @view_bg_color;
+@define-color theme_text_color @view_fg_color;
+@define-color insensitive_bg_color @window_bg_color;
+@define-color insensitive_fg_color alpha(@window_fg_color, 0.5);
+@define-color insensitive_base_color @view_bg_color;
+@define-color borders @headerbar_bg_color;
+@define-color unfocused_borders @headerbar_bg_color;
+@define-color warning_color #f2a900;
+@define-color error_color #cc0000;
+@define-color success_color #24BD5C;
