@@ -253,7 +253,7 @@ window-rule {
     match app-id="zoom"
     open-floating true
 }
-// Open dms windows as floating by default
+// Open modules windows as floating by default
 window-rule {
     match app-id=r#"org.quickshell$"#
     match app-id=r#"com.danklinux.dms$"#
@@ -273,10 +273,10 @@ recent-windows {
     }
 }
 
-// Include dms files
-include "dms/colors.kdl"
-include "dms/layout.kdl"
-include "dms/alttab.kdl"
-include "dms/binds.kdl"
-include "dms/outputs.kdl"
-include "dms/cursor.kdl"
+// Include modules files
+include "modules/colors.kdl"
+include "modules/layout.kdl"
+include "modules/alttab.kdl"
+include "modules/binds.kdl"
+include "modules/outputs.kdl"
+include "modules/cursor.kdl"
