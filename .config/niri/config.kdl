@@ -159,10 +159,14 @@ overview {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
-spawn-at-startup "swaybg" "-i" "~/.config/niri/backgrounds/1.png"
+spawn-at-startup "sh" "-c" "swaybg -i ~/.config/niri/backgrounds/1.png"
+spawn-at-startup "sh" "-c" "gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'"
+spawn-at-startup "sh" "-c" "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
 
 environment {
   XDG_CURRENT_DESKTOP "niri"
+  GTK_THEME "Adwaita:dark"
+  QT_QPA_PLATFORMTHEME "gtk3"
 }
 hotkey-overlay {
     skip-at-startup
