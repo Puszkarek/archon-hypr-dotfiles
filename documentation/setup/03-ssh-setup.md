@@ -9,12 +9,10 @@ This repository uses separate SSH keys for different types of work:
 ## SSH Keys
 
 ### Desires Key
-- **Email**: guipuszkarek@gmail.com
 - **Location**: ~/.ssh/desires
 - **Purpose**: Personal projects and custom extensions
 
 ### Pacts Key
-- **Email**: guilherme.puszkarek@unvoid.com
 - **Location**: ~/.ssh/pacts
 - **Purpose**: Professional work and freelance contracts
 
@@ -56,10 +54,10 @@ To regenerate these keys, run:
 
 ```bash
 # Generate desires key
-ssh-keygen -t ed25519 -f ~/.ssh/desires -C "guipuszkarek@gmail.com" -N ""
+ssh-keygen -t ed25519 -f ~/.ssh/desires -C "your_email@example.com" -N ""
 
 # Generate pacts key
-ssh-keygen -t ed25519 -f ~/.ssh/pacts -C "guilherme.puszkarek@unvoid.com" -N ""
+ssh-keygen -t ed25519 -f ~/.ssh/pacts -C "your_work_email@example.com" -N ""
 ```
 
 Then add the public keys to your GitHub accounts:

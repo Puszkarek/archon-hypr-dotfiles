@@ -7,71 +7,42 @@ binds {
     // === Application Launchers ===
     Mod+Return hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
     Mod+Space hotkey-overlay-title="Application Launcher" {
-        spawn "dms" "ipc" "call" "spotlight" "toggle";
+        spawn-sh "rofi -show drun";
+    }
+    Mod+Shift+Space hotkey-overlay-title="Run Command" {
+        spawn-sh "rofi -show run";
+    }
+    Mod+Ctrl+Space hotkey-overlay-title="Window Switcher" {
+        spawn-sh "rofi -show window";
     }
     Mod+V hotkey-overlay-title="Clipboard Manager" {
-        spawn "sh" "-c" "cliphist list | rofi -dmenu -p Clipboard | cliphist decode";
+        spawn-sh "cliphist list | rofi -dmenu -p Clipboard | cliphist decode";
     }
     Mod+B hotkey-overlay-title="Browser" { spawn "zen-browser"; }
     Mod+E hotkey-overlay-title="File Manager" { spawn "dolphin"; }
 
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
-    Mod+Comma hotkey-overlay-title="Settings" {
-        spawn "dms" "ipc" "call" "settings" "focusOrToggle";
-    }
-    Mod+Y hotkey-overlay-title="Browse Wallpapers" {
-        spawn "dms" "ipc" "call" "dankdash" "wallpaper";
-    }
-    Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
-    Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
-
-    // === Security ===
-    Mod+Alt+L hotkey-overlay-title="Lock Screen" {
-        spawn "dms" "ipc" "call" "lock" "lock";
-    }
     Mod+M { quit; }
-    Ctrl+Alt+Delete hotkey-overlay-title="Task Manager" {
-        spawn "dms" "ipc" "call" "processlist" "focusOrToggle";
-    }
 
     // === Audio Controls ===
     XF86AudioRaiseVolume allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "increment" "3";
+        spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.03+";
     }
     XF86AudioLowerVolume allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "decrement" "3";
+        spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.03-";
     }
     XF86AudioMute allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "mute";
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle";
     }
     XF86AudioMicMute allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "micmute";
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle";
     }
-		XF86AudioPause allow-when-locked=true {
-		    spawn "dms" "ipc" "call" "mpris" "playPause";
-		}
-		XF86AudioPlay allow-when-locked=true {
-		    spawn "dms" "ipc" "call" "mpris" "playPause";
-		}
-		XF86AudioPrev allow-when-locked=true {
-		    spawn "dms" "ipc" "call" "mpris" "previous";
-		}
-		XF86AudioNext allow-when-locked=true {
-		    spawn "dms" "ipc" "call" "mpris" "next";
-		}
-        Ctrl+XF86AudioRaiseVolume allow-when-locked=true {
-            spawn "dms" "ipc" "call" "mpris" "increment" "3";
-        }
-        Ctrl+XF86AudioLowerVolume allow-when-locked=true {
-            spawn "dms" "ipc" "call" "mpris" "decrement" "3";
-        }
 
     // === Brightness Controls ===
     XF86MonBrightnessUp allow-when-locked=true {
-       spawn "dms" "ipc" "call" "brightness" "increment" "5" "";
+       spawn "brightnessctl" "set" "+5%";
     }
     XF86MonBrightnessDown allow-when-locked=true {
-       spawn "dms" "ipc" "call" "brightness" "decrement" "5" "";
+       spawn "brightnessctl" "set" "5%-";
     }
 
     // === Window Management ===
@@ -81,7 +52,6 @@ binds {
     Mod+Shift+T { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+W { toggle-column-tabbed-display; }
-    Mod+Shift+W hotkey-overlay-title="Create window rule" { spawn "dms" "ipc" "call" "window-rules" "toggle"; }
 
     // === Focus Navigation ===
     Mod+Left  { focus-column-left; }
@@ -140,9 +110,6 @@ binds {
     Mod+Ctrl+I         { move-column-to-workspace-up; }
 
     // === Workspace Management ===
-    Ctrl+Shift+R hotkey-overlay-title="Rename Workspace" {
-        spawn "dms" "ipc" "call" "workspace-rename" "open";
-    }
 
     // === Move Workspaces ===
     Mod+Shift+Page_Down { move-workspace-down; }
@@ -178,15 +145,15 @@ binds {
     Mod+9 { focus-workspace 9; }
 
     // === Move to Numbered Workspaces ===
-    Mod+Shift+1 { move-column-to-workspace 1; }
-    Mod+Shift+2 { move-column-to-workspace 2; }
-    Mod+Shift+3 { move-column-to-workspace 3; }
-    Mod+Shift+4 { move-column-to-workspace 4; }
-    Mod+Shift+5 { move-column-to-workspace 5; }
-    Mod+Shift+6 { move-column-to-workspace 6; }
-    Mod+Shift+7 { move-column-to-workspace 7; }
-    Mod+Shift+8 { move-column-to-workspace 8; }
-    Mod+Shift+9 { move-column-to-workspace 9; }
+    Mod+Shift+1 { focus-workspace 1; move-column-to-workspace 1; }
+    Mod+Shift+2 { focus-workspace 2; move-column-to-workspace 2; }
+    Mod+Shift+3 { focus-workspace 3; move-column-to-workspace 3; }
+    Mod+Shift+4 { focus-workspace 4; move-column-to-workspace 4; }
+    Mod+Shift+5 { focus-workspace 5; move-column-to-workspace 5; }
+    Mod+Shift+6 { focus-workspace 6; move-column-to-workspace 6; }
+    Mod+Shift+7 { focus-workspace 7; move-column-to-workspace 7; }
+    Mod+Shift+8 { focus-workspace 8; move-column-to-workspace 8; }
+    Mod+Shift+9 { focus-workspace 9; move-column-to-workspace 9; }
 
     // === Column Management ===
     Mod+BracketLeft  { consume-or-expel-window-left; }
