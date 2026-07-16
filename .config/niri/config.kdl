@@ -129,11 +129,10 @@ layout {
     // Alternatively, you can override it with a window rule called
     // `draw-border-with-background`.
     border {
-        off
-        width 4
-        active-color   "#707070"      // Neutral gray
-        inactive-color "#d0d0d0"      // Light gray
-        urgent-color   "#cc4444"      // Softer red
+        width 2
+        active-color   "#24bd5c"
+        inactive-color "#24bd5ce6"
+        urgent-color   "#cc4444"
     }
     shadow {
         softness 30

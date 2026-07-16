@@ -1,16 +1,8 @@
 layout {
     gaps 5
 
-    border {
-        width 2
-        active-color   "#24bd5a"
-        inactive-color "#b5ccba"
-    }
-
     focus-ring {
-        width 2
-        active-color   "#24bd5c"
-        inactive-color "#b5ccba"
+        off
     }
 }
 
@@ -18,5 +10,4 @@ window-rule {
     geometry-corner-radius 0
     clip-to-geometry true
     tiled-state true
-    draw-border-with-background false
 }
