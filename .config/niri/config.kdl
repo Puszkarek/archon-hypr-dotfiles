@@ -142,6 +142,8 @@ layout {
         color "#0007"
     }
     struts {
+        left 1
+        right 1
     }
 }
 layer-rule {

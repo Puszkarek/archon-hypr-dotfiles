@@ -3,14 +3,14 @@ layout {
 
     border {
         width 2
-        active-color   "#24bd5c"
-        inactive-color "#24bd5c73"
+        active-color   "#24bd5a"
+        inactive-color "#b5ccba"
     }
 
     focus-ring {
         width 2
         active-color   "#24bd5c"
-        inactive-color "#24bd5c73"
+        inactive-color "#b5ccba"
     }
 }
 
