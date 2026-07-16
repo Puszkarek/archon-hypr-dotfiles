@@ -179,7 +179,7 @@ binds {
 
     // === Screenshots ===
     Mod+S hotkey-overlay-title="Screenshot All Screens" { spawn "sh" "-c" "grim - | wl-copy"; }
-    Mod+Shift+S hotkey-overlay-title="Screenshot Area" { spawn "sh" "-c" "wayfreeze --hide-cursor & PID=$!; sleep .1; grim -g \"$(slurp -b '#1b4e2a4d' -c '#24bd5c')\" - --hide-cursor | wl-copy; kill $PID"; }
+    Mod+Shift+S hotkey-overlay-title="Screenshot Area" { spawn "sh" "-c" "wayfreeze --hide-cursor & PID=$!; sleep .1; grim -g \"$(slurp -b '#1b4e2a4d' -c '#24bd5c')\" - | wl-copy; kill $PID"; }
     XF86Launch1 { screenshot; }
     Ctrl+XF86Launch1 { screenshot-screen; }
     Alt+XF86Launch1 { screenshot-window; }
