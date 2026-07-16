@@ -7,21 +7,24 @@ binds {
     // === Application Launchers ===
     Mod+Return hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
     Mod+Space hotkey-overlay-title="Application Launcher" {
-        spawn-sh "rofi -show drun";
+        spawn "rofi" "-show" "drun";
     }
     Mod+Shift+Space hotkey-overlay-title="Run Command" {
-        spawn-sh "rofi -show run";
+        spawn "rofi" "-show" "run";
     }
     Mod+Ctrl+Space hotkey-overlay-title="Window Switcher" {
-        spawn-sh "rofi -show window";
+        spawn "rofi" "-show" "window";
     }
     Mod+V hotkey-overlay-title="Clipboard Manager" {
-        spawn-sh "cliphist list | rofi -dmenu -p Clipboard | cliphist decode";
+        spawn "sh" "-c" "cliphist list | rofi -dmenu -p Clipboard | cliphist decode";
     }
     Mod+B hotkey-overlay-title="Browser" { spawn "zen-browser"; }
     Mod+E hotkey-overlay-title="File Manager" { spawn "dolphin"; }
 
     Mod+M { quit; }
+    Mod+Shift+Delete hotkey-overlay-title="Power Off" {
+        spawn "systemctl" "poweroff";
+    }
 
     // === Audio Controls ===
     XF86AudioRaiseVolume allow-when-locked=true {
@@ -145,15 +148,15 @@ binds {
     Mod+9 { focus-workspace 9; }
 
     // === Move to Numbered Workspaces ===
-    Mod+Shift+1 { focus-workspace 1; move-column-to-workspace 1; }
-    Mod+Shift+2 { focus-workspace 2; move-column-to-workspace 2; }
-    Mod+Shift+3 { focus-workspace 3; move-column-to-workspace 3; }
-    Mod+Shift+4 { focus-workspace 4; move-column-to-workspace 4; }
-    Mod+Shift+5 { focus-workspace 5; move-column-to-workspace 5; }
-    Mod+Shift+6 { focus-workspace 6; move-column-to-workspace 6; }
-    Mod+Shift+7 { focus-workspace 7; move-column-to-workspace 7; }
-    Mod+Shift+8 { focus-workspace 8; move-column-to-workspace 8; }
-    Mod+Shift+9 { focus-workspace 9; move-column-to-workspace 9; }
+    Mod+Shift+1 { move-column-to-workspace 1; }
+    Mod+Shift+2 { move-column-to-workspace 2; }
+    Mod+Shift+3 { move-column-to-workspace 3; }
+    Mod+Shift+4 { move-column-to-workspace 4; }
+    Mod+Shift+5 { move-column-to-workspace 5; }
+    Mod+Shift+6 { move-column-to-workspace 6; }
+    Mod+Shift+7 { move-column-to-workspace 7; }
+    Mod+Shift+8 { move-column-to-workspace 8; }
+    Mod+Shift+9 { move-column-to-workspace 9; }
 
     // === Column Management ===
     Mod+BracketLeft  { consume-or-expel-window-left; }

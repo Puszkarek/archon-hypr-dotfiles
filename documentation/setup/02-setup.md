@@ -8,9 +8,6 @@
    cp -r .config/* ~/.config
    ```
 
-   - Notes:
-     - Waybar it's set to only show on my monitor, so you might want to edit the `waybar/config` file to fit your setup.
-
 1. Copy fonts to `~/.fonts`
    ```
    sudo cp -r fonts/.fonts/* /usr/share/fonts/ && cp -R fonts/fontconfig/* ~/.config/fontconfig/
