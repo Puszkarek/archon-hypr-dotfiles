@@ -1,5 +1,5 @@
 [general]
-import = ["dank-theme.toml"]
+import = ["theme.toml"]
 
 [terminal.shell]
 program = "/usr/bin/fish"
