@@ -2,8 +2,8 @@
 // "/-" comments out the following node.
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
-config-notification {
-    disable
+/-config-notification {
+    disable-failed
 }
 
 gestures {
