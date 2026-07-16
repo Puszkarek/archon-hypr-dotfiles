@@ -17,8 +17,8 @@ function record-screen --description 'Record the screen with audio from the defa
 
     echo "Recording to: $output"
     if test $no_audio = true
-        gpu-screen-recorder -w screen -f 60 -o $output
+        gpu-screen-recorder -w screen -f 60 -fallback-cpu-encoding yes -o $output
     else
-        gpu-screen-recorder -w screen -f 60 -a (pactl get-default-sink).monitor -o $output
+        gpu-screen-recorder -w screen -f 60 -fallback-cpu-encoding yes -a (pactl get-default-sink).monitor -o $output
     end
 end

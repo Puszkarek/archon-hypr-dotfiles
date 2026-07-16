@@ -25,7 +25,7 @@ fi
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
     fish fastfetch cowsay fortune-mod noto-fonts-cjk ttf-nerd-fonts-symbols \
-    ranger lsd unzip wl-clipboard grim slurp rofi alacritty waybar dunst cava cliphist bluetui
+    ranger lsd unzip wl-clipboard grim slurp rofi alacritty waybar dunst cava cliphist bluetui gpu-screen-recorder
 
 # Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="
@@ -39,6 +39,23 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 
 # Step 5: Install Rust
 echo "=== Installing Rust ==="
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+source ~/.cargo/env
+
+# Step 6: Install waybar-bard
+echo "=== Installing waybar-bard ==="
+mkdir -p ~/grimoire/desires
+cd ~/grimoire/desires
+if [ -d "bard" ]; then
+    echo "bard directory already exists, pulling latest changes"
+    cd bard
+    git pull
+else
+    echo "cloning bard repository"
+    git clone https://github.com/Puszkarek/bard.git
+    cd bard
+fi
+sudo -E env "PATH=$PATH" make install
+cd ~
 
 echo "=== Installation complete ==="

@@ -1,9 +1,9 @@
 {
   "tidal_token": "",
-  "lyrics_folder": "/home/asmodeus/incantations",
+  "lyrics_folder": "/home/asmodeus/grimoire/desires/incantations",
   "colors": {
-    "default_fg": "red",
-    "focused_fg": "yellow"
+    "default_fg": "green",
+    "focused_fg": "orange"
   },
   "allowed_players": null,
   "ignore_players": null

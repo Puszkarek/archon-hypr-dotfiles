@@ -3,7 +3,7 @@
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
 config-notification {
-    disable-failed
+    disable
 }
 
 gestures {
@@ -161,6 +161,7 @@ overview {
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
 spawn-at-startup "sh" "-c" "swaybg -i ~/.config/niri/backgrounds/1.png"
+spawn-at-startup "dunst"
 spawn-at-startup "waybar"
 spawn-at-startup "sh" "-c" "gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'"
 spawn-at-startup "sh" "-c" "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
