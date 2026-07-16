@@ -189,4 +189,10 @@ binds {
     // === System Controls ===
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+P { power-off-monitors; }
+
+    // === Background Switching ===
+    Mod+F1 hotkey-overlay-title="Background 1" { spawn "sh" "-c" "pkill swaybg; swaybg -i ~/.config/niri/backgrounds/1.svg &"; }
+    Mod+F2 hotkey-overlay-title="Background 2" { spawn "sh" "-c" "pkill swaybg; swaybg -i ~/.config/niri/backgrounds/2.svg &"; }
+    Mod+F3 hotkey-overlay-title="Background 3" { spawn "sh" "-c" "pkill swaybg; swaybg -i ~/.config/niri/backgrounds/3.svg &"; }
+    Mod+F4 hotkey-overlay-title="Background 4" { spawn "sh" "-c" "pkill swaybg; swaybg -i ~/.config/niri/backgrounds/4.svg &"; }
 }
