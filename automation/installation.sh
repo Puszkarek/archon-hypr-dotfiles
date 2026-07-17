@@ -24,8 +24,16 @@ fi
 # Step 2: Install all pacman dependencies
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
-    fish fastfetch cowsay fortune-mod noto-fonts-cjk ttf-nerd-fonts-symbols \
-    ranger lsd unzip wl-clipboard grim slurp rofi alacritty waybar dunst cava cliphist bluetui gpu-screen-recorder
+    # Shell commands
+    fish lsd unzip wl-clipboard cliphist grim slurp gpu-screen-recorder nodejs-lts-krypton \
+    # Desktop apps & services
+    alacritty rofi waybar dunst \
+    # Terminal UIs
+    ranger cava bluetui \
+    # Fonts
+    noto-fonts-cjk ttf-nerd-fonts-symbols \
+    # Fun & display
+    cowsay fortune-mod fastfetch
 
 # Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="
@@ -42,7 +50,11 @@ echo "=== Installing Rust ==="
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source ~/.cargo/env
 
-# Step 6: Install waybar-bard
+# Step 6: Install npm
+echo "=== Installing npm ==="
+sudo pacman -S --noconfirm npm
+
+# Step 7: Install waybar-bard
 echo "=== Installing waybar-bard ==="
 mkdir -p ~/grimoire/desires
 cd ~/grimoire/desires
