@@ -38,7 +38,10 @@ sudo pacman -S --noconfirm \
 # Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="
 yay -S --noconfirm \
-    zen-browser-bin slack-desktop devin-desktop antigravity-ide tidal-hifi-bin xwayland-satellite wayfreeze-git
+    # Applications
+    zen-browser-bin slack-desktop devin-desktop antigravity-ide tidal-hifi-bin xwayland-satellite wayfreeze-git \
+    # Android development
+    android-studio android-sdk-cmdline-tools-latest android-sdk-platform-tools android-sdk-build-tools android-platform
 
 # Step 4: Install Oh-My-Fish (Fish shell framework)
 echo "=== Installing Oh-My-Fish ==="
