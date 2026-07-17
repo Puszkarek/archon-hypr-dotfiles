@@ -27,7 +27,7 @@ sudo pacman -S --noconfirm \
     # Shell commands
     fish lsd unzip wl-clipboard cliphist grim slurp gpu-screen-recorder nodejs-lts-krypton \
     # Desktop apps & services
-    alacritty rofi waybar dunst \
+    alacritty rofi waybar dunst qbittorrent \
     # Terminal UIs
     ranger cava bluetui \
     # Fonts
@@ -57,7 +57,13 @@ source ~/.cargo/env
 echo "=== Installing npm ==="
 sudo pacman -S --noconfirm npm
 
-# Step 7: Install waybar-bard
+# Step 7: Install Docker
+echo "=== Installing Docker ==="
+sudo pacman -S --noconfirm docker docker-compose
+sudo usermod -aG docker $USER
+sudo systemctl enable docker.service
+
+# Step 8: Install waybar-bard
 echo "=== Installing waybar-bard ==="
 mkdir -p ~/grimoire/desires
 cd ~/grimoire/desires
