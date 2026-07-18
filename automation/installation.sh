@@ -25,7 +25,7 @@ fi
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
     # Shell commands
-    fish lsd unzip wl-clipboard cliphist grim slurp gpu-screen-recorder nodejs-lts-krypton \
+    fish lsd unzip wl-clipboard cliphist grim slurp gpu-screen-recorder nodejs-lts-krypton cmake \
     # Desktop apps & services
     alacritty rofi waybar dunst qbittorrent \
     # Terminal UIs
