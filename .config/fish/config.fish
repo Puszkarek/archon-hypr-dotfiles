@@ -2,6 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Load the jetpack-style fish prompt from a separate file for easy editing
+source (path dirname (status -f))/fish_prompt.fish
+
 # If running from tty1 start sway
 set TTY1 (tty)
 [ "$TTY1" = "/dev/tty1" ] && exec dbus-run-session sway --unsupported-gpu
