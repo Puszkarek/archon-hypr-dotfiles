@@ -37,3 +37,14 @@ END {
         print lines[i]
     }
 }'
+
+
+# Git command aliases
+alias gsw 'git switch'
+alias gck 'git checkout -b'
+alias gwa 'git switch alpha'
+alias gps 'git push origin'
+alias gpl 'git pull origin'
+alias gpla 'git pull origin alpha'
+alias gcb 'git checkout -b'
+alias gbd 'git branch -D'

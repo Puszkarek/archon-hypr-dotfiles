@@ -59,10 +59,12 @@ end
 function fish_prompt
     set -l last_status $status
 
-    # Optional: show duration of previous long command
-    set -l duration (__build_duration)
-    test -n "$duration"
-    and echo -n -s (set_color white --italics) $duration " "
+    # Optional: show duration of previous long command on separate line
+    set -l duration (__build_duration 2>/dev/null)
+    if test -n "$duration"
+        set -l timestamp (date '+%H:%M:%S')
+        echo (set_color cyan --dim)"[⏱ $duration @ $timestamp]"(set_color normal)
+    end
 
     # Character: ◎ success, ○ error (hide in VS Code integrated terminal)
     if not __is_vscode_terminal
@@ -71,6 +73,8 @@ function fish_prompt
         else
             echo -n -s (set_color --italics magenta) "○ " (set_color normal)
         end
+    else
+        echo -n "λ "
     end
 end
 
