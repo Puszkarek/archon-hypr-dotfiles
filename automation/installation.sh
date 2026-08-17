@@ -24,23 +24,16 @@ fi
 # Step 2: Install all pacman dependencies
 echo "=== Installing pacman dependencies ==="
 sudo pacman -S --noconfirm \
-    # Shell commands
     fish lsd unzip wl-clipboard cliphist grim slurp gpu-screen-recorder nodejs-lts-krypton cmake \
-    # Desktop apps & services
     kitty rofi waybar dunst qbittorrent \
-    # Terminal UIs
     ranger cava bluetui \
-    # Fonts
     noto-fonts-cjk ttf-nerd-fonts-symbols \
-    # Fun & display
     cowsay fortune-mod fastfetch
 
 # Step 3: Install all yay (AUR) dependencies - Applications
 echo "=== Installing yay dependencies ==="
 yay -S --noconfirm \
-    # Applications
     zen-browser-bin slack-desktop devin-desktop antigravity-ide tidal-hifi-bin xwayland-satellite wayfreeze-git \
-    # Android development
     android-studio android-sdk-cmdline-tools-latest android-sdk-platform-tools android-sdk-build-tools android-platform
 
 # Step 4: Install Oh-My-Fish (Fish shell framework)
