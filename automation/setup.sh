@@ -11,6 +11,7 @@ cp -r "$REPO_ROOT"/.config/* ~/.config/
 
 echo "=== Copying fonts ==="
 sudo cp -r "$REPO_ROOT"/fonts/.fonts/* /usr/share/fonts/
+mkdir -p ~/.config/fontconfig
 cp -R "$REPO_ROOT"/fonts/fontconfig/* ~/.config/fontconfig/
 
 echo "=== Copying icons ==="
