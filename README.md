@@ -54,11 +54,11 @@
 - [Kitty](ttps://github.com/kovidgoyal/kitty)
 - [Fish](https://github.com/oh-my-fish/oh-my-fish)
 
-See [installation.md](./documentation/installation.md) for detailed dependency installation instructions.
+See [installation.md](./documentation/setup/01-installation.md) for detailed dependency installation instructions.
 
 ### Setup
 
-See [setup.md](./documentation/setup.md) for detailed setup and file installation instructions.
+See [setup.md](./documentation/setup/02-setup.md) for detailed setup and file installation instructions.
 
 ### References
 

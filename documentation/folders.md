@@ -37,10 +37,10 @@ The primary development directory for writing code, containing the logic and str
 
 ## 4. Browser Bookmarks (GitHub & Workflow)
 
-| Folder Level    | Name         | Function / Lore                                                      |
-| :-------------- | :----------- | :------------------------------------------------------------------- |
-| **Main Folder** | `the_altar`  | **Github**                                                           |
-| ↳ _Subfolder_   | `judgments`  | **To Review:** Code brought before you for approval or rejection.    |
-| ↳ _Subfolder_   | `offerings`  | **My PRs:** Your own code submitted to the project maintainers.      |
-| ↳ _Subfolder_   | `the_trials` | **CI Actions:** Automated tests and pipelines the code must survive. |
-| ↳ _Subfolder_   | `curses`     | **Issues/Bugs:** Broken logic and grievances that must be purged.    |
+| Folder Level    | Name                       | Function / Lore                                                     |
+| :-------------- | :------------------------- | :------------------------------------------------------------------ |
+| **Main**        | `Altar` (Ara)              | **Github**                                                          |
+| ↳ _Subfolder_   | `Judgments` (Inquisitiones) | **To Review:** Code brought before you for approval or rejection.   |
+| ↳ _Subfolder_   | `Offerings` (Hostiae)      | **My PRs:** Your own code submitted to the project maintainers.      |
+| ↳ _Subfolder_   | `Trials` (Persecutiones)  | **CI Actions:** Automated tests and pipelines the code must survive. |
+| ↳ _Subfolder_   | `Curses` (Cruciationes)   | **Issues/Bugs:** Broken logic and grievances that must be purged.    |

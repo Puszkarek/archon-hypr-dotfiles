@@ -2,9 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-# If running from tty1 start sway
+# Load the jetpack-style fish prompt from a separate file for easy editing
+source (path dirname (status -f))/fish_prompt.fish
+
+# If running from tty1 start hyprland
 set TTY1 (tty)
-[ "$TTY1" = "/dev/tty1" ] && exec dbus-run-session sway --unsupported-gpu
+[ "$TTY1" = "/dev/tty1" ] && exec dbus-run-session Hyprland
 
 # ASDF configuration code
 if test -z $ASDF_DATA_DIR
@@ -34,3 +37,14 @@ END {
         print lines[i]
     }
 }'
+
+
+# Git command aliases
+alias gsw 'git switch'
+alias gck 'git checkout -b'
+alias gwa 'git switch alpha'
+alias gps 'git push origin'
+alias gpl 'git pull origin'
+alias gpla 'git pull origin alpha'
+alias gcb 'git checkout -b'
+alias gbd 'git branch -D'
